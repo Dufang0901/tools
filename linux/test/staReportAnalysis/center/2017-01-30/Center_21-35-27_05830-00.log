@@ -1,0 +1,25 @@
+Date:2017-01-30 21:35:27.236 <  INFO>,[Center]--Driver manu click route conf,routeName is 583.serviceCoding is 00
+Date:2017-01-30 21:35:27.251 <  INFO>,[Center]--Route conf,route is 583,routeCoding is 05830.serviceCoding is 00,busNum is 9473588FB19F
+
+Date:2017-01-30 21:35:27.355 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-30 21:35:27.421 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-30 21:35:27.429 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-30 21:35:27.435 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-30 21:35:27.440 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-30 21:35:34.412 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-30 21:35:34.414 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 00,staCoding is 05830101,staName is 芳村西塱站总站,type is '1'
+
+Date:2017-01-30 21:36:20.077 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-30 21:36:20.079 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 00,staCoding is 05830101,staName is 芳村西塱站总站,type is '1'
+
+Date:2017-01-30 21:36:58.564 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-30 21:36:58.567 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 00,staCoding is 05830102,staName is 鹤洞路西,type is '1'
+
+Date:2017-01-30 21:36:59.629 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-30 21:36:59.631 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 00,staCoding is 05830102,staName is 鹤洞路西,type is '1'
+
+Date:2017-01-30 21:38:31.921 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-30 21:38:31.923 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 00,staCoding is 05830102,staName is 鹤洞路西,type is '1'
+
+Date:2017-01-30 21:46:19.013 <  INFO>,[Center]--上报违规,type is 1.
+Date:2017-01-30 21:46:31.018 <  INFO>,[Center]--上报违规,type is 1.

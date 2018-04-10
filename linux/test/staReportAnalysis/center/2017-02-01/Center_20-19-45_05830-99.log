@@ -1,0 +1,9 @@
+Date:2017-02-01 20:19:45.981 <  INFO>,[Center]--Driver manu click route conf,routeName is 583.serviceCoding is 99
+Date:2017-02-01 20:19:45.983 <  INFO>,[Center]--Route conf,route is 583,routeCoding is 05830.serviceCoding is 99,busNum is 94735890E56B
+
+Date:2017-02-01 20:19:46.000 <  INFO>,[Center]--CenterResInit: bic trip control info init finished, trip total is 1.
+Date:2017-02-01 20:19:46.003 <  INFO>,[Center]--CenterResInit: bic dispatch info init finished, dispatchTotal=0 dispatch1Total=0 dispatch2Total=0 dispatch3Total=0 unreadTotal=0.
+Date:2017-02-01 20:19:46.011 <  INFO>,[Center]--CenterResInit: bic audio hint list get finished.
+Date:2017-02-01 20:19:46.014 <  INFO>,[Center]--CenterResInit: save bic operation info to file.
+Date:2017-02-01 20:19:46.019 <  INFO>,[Center]--CenterResInit: bic phone list get finished.
+Date:2017-02-01 20:19:46.020 <  INFO>,[Center]--CenterProcess: center process resource initialization finished, start loop...

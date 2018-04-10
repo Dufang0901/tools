@@ -1,0 +1,134 @@
+#!/bin/sh
+
+#setup by sinlee, 2013.11.8
+
+echo "insert GPIO module..."
+insmod /usr/lib/modules/gpio/gpio_biccore.ko
+
+echo "start web server..."
+APACHE_CONF="/apache2/conf/httpd_default.conf"
+
+[[ -d /sdcard/ftp_root/www/ ]] && APACHE_CONF="/apache2/conf/httpd.conf"
+/apache2/bin/apachectl -k start -f "$APACHE_CONF"
+
+echo "start ftp server..."
+chmod -R 777 /sdcard/ftp_root/* 2>/dev/null
+chown root:root /etc/vsftpd.conf
+chown root:root /etc/vsftpd.user_list
+chown -R bicftp:bicftp /sdcard/ftp_root 2>/dev/null
+vsftpd &
+
+named -gc /etc/bind/named.conf &
+
+echo "enable AP Module Power ..."
+opgpio 4 1
+
+if [ -f /usr/sbin/bic ] ; then 
+
+ echo "start bic daemon process..."
+ bic &
+ 
+fi
+
+telnetd
+
+echo "add iptables rules..."
+/etc/rc.d/rc.iptables
+
+ulimit -n 2048
+#update ftp configuration
+if [ ! -d /home/gzbic/FtpRoot/ ]
+then
+	mkdir -p /home/gzbic/FtpRoot
+	chmod 777 /home/gzbic/FtpRoot
+fi
+if [ -f /udisk/Update/Bic/passwd ]
+then
+	cp /udisk/Update/Bic/passwd /etc/
+fi
+
+if [ -f /udisk/Update/Bic/vsftpd.conf ]
+then
+	cp /udisk/Update/Bic/vsftpd.conf /etc/
+fi
+if [ -f /udisk/Update/Bic/shells ]
+then
+	cp /udisk/Update/Bic/shells /etc/
+fi
+if [ -f /udisk/Update/Bic/shadow ]
+then
+	cp /udisk/Update/Bic/shadow /etc/
+fi
+
+
+#update Bic
+echo "update bic application start..."
+if [ -d /udisk/Update/Bic ]
+then
+	if [ ! -d /home/gzbic ]
+	then
+		mkdir -p /home/gzbic
+	fi
+	#update BicCode 
+	if [ -d /udisk/Update/Bic/BicCode ]
+	then
+		cp -rf /udisk/Update/Bic/BicCode /home/gzbic/
+	fi
+	#update bic.conf
+	if [ -f /udisk/Update/Bic/release/etc/bic.conf ]
+	then
+		cp /udisk/Update/Bic/release/etc/bic.conf /home/gzbic/release/etc/bic.conf.bak
+		rm /udisk/Update/Bic/release/etc/bic.conf
+	fi
+	#update other files 
+	if [ -d /udisk/Update/Bic/release ]
+	then
+		cp -rf /udisk/Update/Bic/release /home/gzbic/
+	fi
+	
+	echo "update bic application end..."
+elif [ -f /home/gzbic/FtpRoot/Update.tar ]
+then
+#update Bic from FTP
+
+	echo "update bic application from FTP, start..."
+	
+	chmod 777 /home/gzbic/FtpRoot/Update.tar
+	tar -xvf /home/gzbic/FtpRoot/Update.tar -C /home/gzbic/FtpRoot/
+
+	#update BicCode
+	if [ -d /home/gzbic/FtpRoot/Update/BicCode ]
+	then
+		cp -rf /home/gzbic/FtpRoot/Update/BicCode /home/gzbic/
+	fi
+	#update bic.conf
+	if [ -f /home/gzbic/FtpRoot/Update/Bic/release/etc/bic.conf ]
+	then
+		cp /home/gzbic/FtpRoot/Update/Bic/release/etc/bic.conf /home/gzbic/release/etc/bic.conf.bak
+		rm /home/gzbic/FtpRoot/Update/Bic/release/etc/bic.conf
+	fi
+	#update release directory
+	if [ -d /home/gzbic/FtpRoot/Update/Bic/release ]
+	then
+		cp -rf /home/gzbic/FtpRoot/Update/Bic/release /home/gzbic/
+	fi
+	
+	#remove update file
+	rm -rf /home/gzbic/FtpRoot/Update/
+	rm /home/gzbic/FtpRoot/Update.tar
+
+else
+	echo "Bic update package not found..."
+	
+fi
+
+#run BicRun
+if [ -f /home/gzbic/BicCode/BicRun ]
+then
+	echo "start /home/gzbic/BicCode/BicRun..."
+	chmod 777 /home/gzbic/BicCode/BicRun
+	/home/gzbic/BicCode/BicRun &
+else
+	echo "/home/gzbic/BicCode/BicRun not found..."
+fi
+

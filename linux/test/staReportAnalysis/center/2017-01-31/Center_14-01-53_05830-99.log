@@ -1,0 +1,290 @@
+Date:2017-01-31 14:01:53.612 <  INFO>,[Center]--Driver manu click route conf,routeName is 583.serviceCoding is 99
+Date:2017-01-31 14:01:53.626 <  INFO>,[Center]--Route conf,route is 583,routeCoding is 05830.serviceCoding is 99,busNum is 9473589098D1
+
+Date:2017-01-31 14:01:53.722 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-31 14:01:53.728 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-31 14:01:53.739 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-31 14:01:53.747 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-31 14:01:53.757 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-31 14:01:53.765 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-01-31 14:02:15.205 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:02:15.207 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830001,staName is 员村一横路总站,type is '1'
+
+Date:2017-01-31 14:02:55.413 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:02:55.417 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830001,staName is 员村一横路总站,type is '1'
+
+Date:2017-01-31 14:14:25.942 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:14:25.950 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830002,staName is 员村西街西,type is '1'
+
+Date:2017-01-31 14:14:32.152 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:14:32.155 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830002,staName is 员村西街西,type is '1'
+
+Date:2017-01-31 14:14:58.993 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:14:58.997 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830002,staName is 员村西街西,type is '1'
+
+Date:2017-01-31 14:15:35.227 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:15:35.229 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830003,staName is 员村西街中,type is '1'
+
+Date:2017-01-31 14:16:02.104 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:16:02.107 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830003,staName is 员村西街中,type is '1'
+
+Date:2017-01-31 14:16:42.415 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:16:42.418 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830003,staName is 员村西街中,type is '1'
+
+Date:2017-01-31 14:19:57.278 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:19:57.279 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830005,staName is 员村山顶,type is '1'
+
+Date:2017-01-31 14:20:01.412 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:20:01.413 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830005,staName is 员村山顶,type is '1'
+
+Date:2017-01-31 14:20:31.433 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:20:31.435 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830005,staName is 员村山顶,type is '1'
+
+Date:2017-01-31 14:21:39.799 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:21:39.802 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830006,staName is 华侨医院谭村,type is '1'
+
+Date:2017-01-31 14:21:42.878 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:21:42.880 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830006,staName is 华侨医院谭村,type is '1'
+
+Date:2017-01-31 14:22:24.228 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:22:24.229 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830006,staName is 华侨医院谭村,type is '1'
+
+Date:2017-01-31 14:24:55.512 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:24:55.515 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830007,staName is 国防大厦,type is '1'
+
+Date:2017-01-31 14:25:35.836 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:25:35.839 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830007,staName is 国防大厦,type is '1'
+
+Date:2017-01-31 14:25:49.301 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:25:49.303 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830008,staName is 石牌村,type is '1'
+
+Date:2017-01-31 14:25:51.365 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:25:51.368 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830008,staName is 石牌村,type is '1'
+
+Date:2017-01-31 14:26:15.147 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:26:15.149 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830008,staName is 石牌村,type is '1'
+
+Date:2017-01-31 14:28:08.185 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:28:08.187 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830009,staName is 猎德路,type is '1'
+
+Date:2017-01-31 14:28:11.274 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:28:11.276 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830009,staName is 猎德路,type is '1'
+
+Date:2017-01-31 14:28:33.927 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:28:33.929 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830009,staName is 猎德路,type is '1'
+
+Date:2017-01-31 14:29:05.011 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:29:05.013 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830010,staName is 金穗路,type is '1'
+
+Date:2017-01-31 14:29:07.074 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:29:07.078 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830010,staName is 金穗路,type is '1'
+
+Date:2017-01-31 14:29:28.682 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:29:28.685 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830010,staName is 金穗路,type is '1'
+
+Date:2017-01-31 14:31:30.040 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:31:30.041 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830012,staName is 冼村路中,type is '1'
+
+Date:2017-01-31 14:31:33.160 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:31:33.163 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830012,staName is 冼村路中,type is '1'
+
+Date:2017-01-31 14:31:46.516 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:31:46.517 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830012,staName is 冼村路中,type is '1'
+
+Date:2017-01-31 14:33:09.329 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:33:09.332 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830013,staName is 猎德,type is '1'
+
+Date:2017-01-31 14:33:12.444 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:33:12.446 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830013,staName is 猎德,type is '1'
+
+Date:2017-01-31 14:33:38.219 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:33:38.220 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830013,staName is 猎德,type is '1'
+
+Date:2017-01-31 14:33:40.288 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:33:40.290 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830032,staName is 猎德东,type is '1'
+
+Date:2017-01-31 14:33:42.362 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:33:42.364 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830032,staName is 猎德东,type is '1'
+
+Date:2017-01-31 14:34:10.200 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:34:10.202 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830032,staName is 猎德东,type is '1'
+
+Date:2017-01-31 14:36:39.995 <  INFO>,[Center]--上报违规,type is 1.
+Date:2017-01-31 14:37:42.574 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:37:42.577 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830014,staName is 双塔路,type is '1'
+
+Date:2017-01-31 14:37:45.693 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:37:45.695 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830014,staName is 双塔路,type is '1'
+
+Date:2017-01-31 14:38:09.438 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:38:09.441 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830014,staName is 双塔路,type is '1'
+
+Date:2017-01-31 14:39:10.078 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:39:52.030 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:39:52.031 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830015,staName is 赤岗,type is '1'
+
+Date:2017-01-31 14:40:34.294 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:40:34.296 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830015,staName is 赤岗,type is '1'
+
+Date:2017-01-31 14:41:34.241 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:41:34.243 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830015,staName is 赤岗,type is '1'
+
+Date:2017-01-31 14:41:59.108 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:41:59.109 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830016,staName is 江海大道中,type is '1'
+
+Date:2017-01-31 14:42:01.180 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:42:01.182 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830016,staName is 江海大道中,type is '1'
+
+Date:2017-01-31 14:42:36.229 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:42:36.230 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830016,staName is 江海大道中,type is '1'
+
+Date:2017-01-31 14:43:22.771 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:43:22.773 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830017,staName is 大塘,type is '1'
+
+Date:2017-01-31 14:43:23.813 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:43:23.815 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830017,staName is 大塘,type is '1'
+
+Date:2017-01-31 14:43:55.849 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:43:55.852 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830017,staName is 大塘,type is '1'
+
+Date:2017-01-31 14:44:29.035 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:44:29.037 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830018,staName is 龙潭村,type is '1'
+
+Date:2017-01-31 14:44:32.136 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:44:32.138 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830018,staName is 龙潭村,type is '1'
+
+Date:2017-01-31 14:45:04.165 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:45:04.168 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830018,staName is 龙潭村,type is '1'
+
+Date:2017-01-31 14:46:13.549 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:46:13.552 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830031,staName is 龙潭立交西,type is '1'
+
+Date:2017-01-31 14:46:15.630 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:46:15.634 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830031,staName is 龙潭立交西,type is '1'
+
+Date:2017-01-31 14:46:39.329 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:46:39.333 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830031,staName is 龙潭立交西,type is '1'
+
+Date:2017-01-31 14:47:02.155 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:47:02.166 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830019,staName is 聚德西路口,type is '1'
+
+Date:2017-01-31 14:47:04.231 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:47:04.232 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830019,staName is 聚德西路口,type is '1'
+
+Date:2017-01-31 14:47:49.619 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:47:49.621 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830019,staName is 聚德西路口,type is '1'
+
+Date:2017-01-31 14:48:26.941 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:48:26.944 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830020,staName is 广州大道南路口,type is '1'
+
+Date:2017-01-31 14:48:29.033 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:48:29.034 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830020,staName is 广州大道南路口,type is '1'
+
+Date:2017-01-31 14:49:15.646 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:49:15.648 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830020,staName is 广州大道南路口,type is '1'
+
+Date:2017-01-31 14:50:42.569 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:50:42.572 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830021,staName is 上涌果树公园,type is '1'
+
+Date:2017-01-31 14:50:43.616 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:50:43.619 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830021,staName is 上涌果树公园,type is '1'
+
+Date:2017-01-31 14:51:11.508 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:51:11.510 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830021,staName is 上涌果树公园,type is '1'
+
+Date:2017-01-31 14:52:29.265 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:52:29.268 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830022,staName is 新滘西路,type is '1'
+
+Date:2017-01-31 14:52:30.350 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:52:30.354 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830022,staName is 新滘西路,type is '1'
+
+Date:2017-01-31 14:53:01.314 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:53:01.317 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830022,staName is 新滘西路,type is '1'
+
+Date:2017-01-31 14:54:34.381 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:54:34.384 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830033,staName is 沙溪村口,type is '1'
+
+Date:2017-01-31 14:54:35.427 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:54:35.429 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830033,staName is 沙溪村口,type is '1'
+
+Date:2017-01-31 14:55:04.291 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:55:04.292 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830033,staName is 沙溪村口,type is '1'
+
+Date:2017-01-31 14:55:38.432 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:55:38.433 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830023,staName is 新滘西路西,type is '1'
+
+Date:2017-01-31 14:55:40.498 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:55:40.501 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830023,staName is 新滘西路西,type is '1'
+
+Date:2017-01-31 14:56:14.595 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:56:14.598 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830023,staName is 新滘西路西,type is '1'
+
+Date:2017-01-31 14:57:04.349 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:59:23.998 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:59:24.001 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830024,staName is 石溪,type is '1'
+
+Date:2017-01-31 14:59:28.115 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:59:28.118 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830024,staName is 石溪,type is '1'
+
+Date:2017-01-31 14:59:55.937 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:59:55.939 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830024,staName is 石溪,type is '1'
+
+Date:2017-01-31 14:59:58.012 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:59:58.014 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830025,staName is 保利花园,type is '1'
+
+Date:2017-01-31 14:59:59.051 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 14:59:59.052 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830025,staName is 保利花园,type is '1'
+
+Date:2017-01-31 15:00:31.046 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:00:31.048 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830025,staName is 保利花园,type is '1'
+
+Date:2017-01-31 15:03:08.227 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:03:08.228 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830026,staName is 纸厂,type is '1'
+
+Date:2017-01-31 15:03:09.268 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:03:09.269 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830026,staName is 纸厂,type is '1'
+
+Date:2017-01-31 15:03:18.530 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:03:18.535 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830026,staName is 纸厂,type is '1'
+
+Date:2017-01-31 15:03:29.897 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:03:29.898 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830027,staName is 珠江医院,type is '1'
+
+Date:2017-01-31 15:03:33.006 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:03:33.011 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830027,staName is 珠江医院,type is '1'
+
+Date:2017-01-31 15:04:03.944 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:04:03.947 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830027,staName is 珠江医院,type is '1'
+
+Date:2017-01-31 15:07:47.000 <  INFO>,[Center]--上报违规,type is 1.
+Date:2017-01-31 15:07:53.001 <  INFO>,[Center]--上报违规,type is 1.
+Date:2017-01-31 15:08:26.863 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:08:26.865 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830029,staName is 广州市培英中学,type is '1'
+
+Date:2017-01-31 15:08:28.923 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:08:28.926 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830029,staName is 广州市培英中学,type is '1'
+
+Date:2017-01-31 15:09:21.554 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:09:21.558 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830029,staName is 广州市培英中学,type is '1'
+
+Date:2017-01-31 15:10:42.131 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:10:42.144 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830030,staName is 白鹤洞,type is '1'
+
+Date:2017-01-31 15:10:43.181 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:10:43.183 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830030,staName is 白鹤洞,type is '1'
+
+Date:2017-01-31 15:11:05.857 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:11:05.859 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830030,staName is 白鹤洞,type is '1'
+
+Date:2017-01-31 15:12:17.056 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:12:17.057 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830034,staName is 鹤洞路西,type is '1'
+
+Date:2017-01-31 15:12:19.133 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:12:19.135 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830034,staName is 鹤洞路西,type is '1'
+
+Date:2017-01-31 15:12:44.949 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:12:44.951 <  INFO>,[Center]--Route leave sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830034,staName is 鹤洞路西,type is '1'
+
+Date:2017-01-31 15:15:39.433 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-01-31 15:15:39.437 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830028,staName is 芳村西塱站总站,type is '1'
+

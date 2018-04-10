@@ -1,0 +1,871 @@
+# wput dutch translation.
+# Copyright (C) 2006 Sebastiaan J.L. van der Velden
+# This file is distributed under the same license as the wput package.
+# Sebastiaan J.L. van der Velden <svv07@sourceforge.net>, 2006.
+# Hagen Fritsch <fritsch+wput-nl-po@in.tum.de>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wput 0.6\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/tracker/?group_id=141519\n"
+"POT-Creation-Date: 2008-09-26 16:06+0200\n"
+"PO-Revision-Date: 2007-12-11 23:55+0000\n"
+"Last-Translator: Sebastiaan J.L. van der Velden <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-09-26 15:40+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/wput.c:152
+msgid "Resuming in background. Logging output to 'wput-log'.\n"
+msgstr "Hervatten in de achtergrond. Uitvoer wordt gelogd naar 'wput-log'.\n"
+
+#: src/wput.c:154 src/wput.c:683
+msgid "Unable to open logfile"
+msgstr "Kan log-bestand niet openen"
+
+#: src/wput.c:162 src/wput.c:172 src/wput.c:182 src/wput.c:359 src/wput.c:727
+#: src/ftp.c:880 src/ftp.c:920 src/ftplib.c:270 src/ftplib.c:954
+#: src/ftplib.c:965 src/utils.c:284 src/utils.c:311 src/queue.c:334
+#: src/queue.c:341 src/queue.c:382 src/queue.c:459 src/queue.c:495
+#: src/queue.c:530
+msgid "Warning: "
+msgstr "Waarschuwing: "
+
+#: src/wput.c:163
+msgid ""
+"background-mode might not work correctly, if the input-pipe needs to read "
+"from stdin (like cat -).\n"
+msgstr ""
+"het kan zijn dat de achtergrond-modus niet goed werkt, als de invoer-pijp "
+"gelezen moet wordenvanaf stdin (like cat -).\n"
+
+#: src/wput.c:173
+msgid ""
+"reading urls from stdin, while running in background-mode is not reliable.\n"
+msgstr ""
+"het lezen van urls vanaf stdin, terwijl achtergrond-modus actief is, is niet "
+"betrouwbaar.\n"
+
+#: src/wput.c:183
+msgid ""
+"Ignoring request to turn proxy-usage on, since no proxy is configured.\n"
+msgstr ""
+"Aanvraag om proxy-gebruik in te schakelen wordt genegeerd omdat er geen "
+"proxy is geconfigureerd.\n"
+
+#: src/wput.c:212
+msgid "Nothing done. Try `wput --help'.\n"
+msgstr "Niets gedaan. Probeer `wput --help'.\n"
+
+#: src/wput.c:214
+#, c-format
+msgid "FINISHED --%s--\n"
+msgstr "KLAAR --%s--\n"
+
+#: src/wput.c:218
+#, c-format
+msgid "Transfered %s bytes in %d file at %s\n"
+msgstr "%s bytes getransporteerd naar %d bestand op %s\n"
+
+#: src/wput.c:219
+#, c-format
+msgid "Transfered %s bytes in %d files at %s\n"
+msgstr "%s bytes getransporteerd naar %d bestanden op %s\n"
+
+#: src/wput.c:228
+#, c-format
+msgid "Skipped %d file.\n"
+msgstr "%d bestand overgeslagen.\n"
+
+#: src/wput.c:228
+#, c-format
+msgid "Skipped %d files.\n"
+msgstr "%d bestanden overgeslagen.\n"
+
+#: src/wput.c:230
+#, c-format
+msgid "Transmission of %d file failed.\n"
+msgstr "Verzending van %d bestand mislukt.\n"
+
+#: src/wput.c:230
+#, c-format
+msgid "Transmission of %d files failed.\n"
+msgstr "Verzending van %d bestanden mislukt.\n"
+
+#: src/wput.c:302 src/ftp.c:219 src/ftp.c:240 src/ftp.c:347 src/ftp.c:385
+#: src/ftp.c:405 src/ftp.c:884 src/socketlib.c:124 src/socketlib.c:264
+#: src/socketlib.c:431 src/socketlib.c:451 src/socketlib.c:476
+#: src/socketlib.c:495 src/socketlib.c:515 src/socketlib.c:568
+#: src/socketlib.c:623 src/ftplib.c:279 src/ftplib.c:285 src/ftplib.c:648
+#: src/ftplib.c:693 src/queue.c:438 src/queue.c:540
+msgid "Error: "
+msgstr "Fout: "
+
+#: src/wput.c:303 src/wput.c:360 src/ftp.c:881 src/ftp.c:885
+#, c-format
+msgid "`%s' could not be resolved. "
+msgstr "`%s' kon niet bepaald worden. "
+
+#: src/wput.c:304
+msgid "Exiting.\n"
+msgstr "Afsluiten.\n"
+
+#: src/wput.c:361
+msgid "Disabling proxy support.\n"
+msgstr "Proxy ondersteuning uitschakelen.\n"
+
+#: src/wput.c:455
+#, c-format
+msgid "netrc file '%s' cannot be read. skipping\n"
+msgstr "netrc-bestand '%s' kan niet gelezen worden. overslaan\n"
+
+#: src/wput.c:485
+#, c-format
+msgid "password_file '%s' cannot be read. skipping\n"
+msgstr "paswoord bestand '%s' kan niet gelezen worden. overslaan\n"
+
+#: src/wput.c:488
+msgid ""
+"Warning: You are using a wput password file. This is deprecated!\n"
+"         Please consider switch to the widely used netrc-files.\n"
+msgstr ""
+
+#: src/wput.c:532
+#, c-format
+msgid "Fatal error while opening '%s': %s\n"
+msgstr "Fatale fout tijdens openen '%s': %s\n"
+
+#: src/wput.c:565
+#, c-format
+msgid "%s#%d: Option '%s' not recognized\n"
+msgstr "%s#%d: Optie '%s' niet herkend\n"
+
+#: src/wput.c:566
+#, c-format
+msgid "%s#%d: Unknow value '%s' for '%s'\n"
+msgstr "%s#%d: Onbkende waarde '%s' voor '%s'\n"
+
+#: src/wput.c:678
+#, c-format
+msgid "Option %s should not appear here :|\n"
+msgstr "Optie %s kan hier niet gebruikt worden:|\n"
+
+#: src/wput.c:728
+msgid ""
+"You supplied an input-pipe. This is only to be used as fallback, if no "
+"filename can be found from the URL. This might not be the desired behavour. "
+"TODO\n"
+msgstr ""
+"U heeft een invoer-pijp opgegeven. Dit kan alleen als laatste optie worden "
+"gebruikt, als geen bestandsnaam kan worden gevonden uit de URL. Dit zou een "
+"niet gewenst resultaat tot gevolg kunnen hebben. TEDOEN\n"
+
+#: src/wput.c:737
+#, c-format
+msgid "wput version: %s\n"
+msgstr "wput versie: %s\n"
+
+#: src/wput.c:741
+#, c-format
+msgid ""
+"Usage: wput [options] [file]... [url]...\n"
+"  url        ftp://[username[:password]@]hostname[:port][/[path/][file]]\n"
+"\n"
+"Startup:\n"
+"  -V, --version         Display the version of wput and exit.\n"
+"  -h, --help            Print this help-screen\n"
+msgstr ""
+"Gebruik: wput [opties] [bestand]... [url]...\n"
+"  url        ftp://[gebruiker[:paswoord]@]hostname[:poort][/[pad/]"
+"[bestand]]\n"
+"\n"
+"Opstart:\n"
+"  -V, --versie          De versie van wput weergeven en afsluiten.\n"
+"  -h, --help            Dit help-venster weergeven\n"
+
+#: src/wput.c:748
+#, c-format
+msgid "  -b, --background      go to background after startup\n"
+msgstr "  -b, --achtergrond      gan naar de achtergrond na opstart\n"
+
+#: src/wput.c:753
+#, c-format
+msgid ""
+"Logging and input file:\n"
+"  -o,  --output-file=FILE      log messages to FILE\n"
+"  -a,  --append-output=FILE    append log messages to FILE\n"
+"  -q,  --quiet                 quiet (no output)\n"
+"  -v,  --verbose               be verbose\n"
+"  -d,  --debug                 debug output\n"
+"  -nv, --less-verbose          be less verbose\n"
+"  -i,  --input-file=FILE       read the URLs from FILE\n"
+"  -s,  --sort                  sorts all input URLs by server-ip and path\n"
+"       --basename=PATH         snip PATH off each file when appendig to an "
+"URL\n"
+"  -I,  --input-pipe=COMMAND    take the output of COMMAND as data-source\n"
+"  -R,  --remove-source-files   unlink files upon successful upload\n"
+"\n"
+msgstr ""
+"Logging and input file:\n"
+"  -o,  --output-file==BESTAND     log berichten naar BESTAND\n"
+"  -a,  --append-output=BESTAND    berichten toevoegen aan BESTAND\n"
+"  -q,  --quiet                    stil (geen uitvoer)\n"
+"  -v,  --verbose                  wees meer beschrijvende\n"
+"  -d,  --debug                    debug uitvoer\n"
+"  -nv, --less-verbose             wees minder beschrijvende\n"
+"  -i,  --input-file=BESTAND       lees de URLs uit BESTAND\n"
+"  -s,  --sort                     sorteert alle ingevoerde URLs op server-ip "
+"en pad\n"
+"       --basename=PAD             verwijderd PAD van elk bestand tijdens "
+"toevoegen aan URL\n"
+"  -I,  --input-pipe=OPDRACHT      neem de uitvoer van OPDRACHT als data-"
+"bron\n"
+"  -R,  --remove-source-files      bestanden loskoppelen na succesvol "
+"verzenden\n"
+"\n"
+
+#: src/wput.c:769
+#, c-format
+msgid ""
+"Upload:\n"
+"       --bind-address=ADDR     bind to ADDR (hostname or IP) on local host\n"
+"  -t,  --tries=NUMBER          set retry count to NUMBER (-1 means "
+"infinite)\n"
+"  -nc, --dont-continue         do not resume partially-uploaded files\n"
+"  -u,  --reupload              do not skip already completed files\n"
+"       --skip-larger           do not upload files if remote size is larger\n"
+"       --skip-existing         do not upload files that exist remotely\n"
+"  -N,  --timestamping          don't re-upload files unless newer than "
+"remote\n"
+"  -T,  --timeout=10th-SECONDS  set various timeouts to 10th-SECONDS\n"
+"  -w,  --wait=10th-SECONDS     wait 10th-SECONDS between uploads. (default: "
+"0)\n"
+"       --random-wait           wait from 0...2*WAIT secs between uploads.\n"
+"       --waitretry=SECONDS     wait SECONDS between retries of an upload\n"
+"  -l,  --limit-rate=RATE       limit upload rate to RATE\n"
+"  -nd, --no-directories        do not create any directories\n"
+"  -Y,  --proxy=http/socks/off  set proxy type or turn off\n"
+"       --proxy-user=NAME       set the proxy-username to NAME\n"
+"       --proxy-pass=PASS       set the proxy-password to PASS\n"
+"\n"
+msgstr ""
+"Verzenden:\n"
+"       --bind-address=ADDR     binden aan ADDR (hostname of IP) op lokale "
+"host\n"
+"  -t,  --tries=NUMMER          aantal keer proberen NUMMER (-1 betkend "
+"oneindig)\n"
+"  -nc, --dont-continue         Niet doorgaan met gedeeltelijk vezonden "
+"bestanden\n"
+"  -u,  --reupload              reeds verzonden bestanden niet overslaan\n"
+"       --skip-larger           geen betanden verzenden die groter zijn dan "
+"een reeds verzonden versie\n"
+"       --skip-existing         geen bestanden verzenden die al bestaan\n"
+"  -N,  --timestamping          geen bestanden opnieuw verzenden tenzij ze "
+"nieuwer zijn op afstand\n"
+"  -T,  --timeout=10de-SECONDEN zet verschillende timeouts op 10de-SECONDEN\n"
+"  -w,  --wait=10de-SECONDEN    wacht 10de-SECONDEN tussen verzendingen. "
+"(standaard: 0)\n"
+"       --random-wait           wacht van 0...2*WACHT seconden tussen "
+"verzendingen.\n"
+"       --waitretry=SECONDEN    wacht SECONDEN tussen het opnieuw verzenden "
+"van een bestand\n"
+"  -l,  --limit-rate=RATE       stel de verzendingssnelheid in op RATE\n"
+"  -nd, --no-directories        geen mappen maken\n"
+"  -Y,  --proxy=http/socks/uit  zet proxy type of schakel uit\n"
+"       --proxy-user=NAAM       zet de proxy-gebruikersnaam op NAAM\n"
+"       --proxy-pass=PASWOORD   zet het proxy-paswoord op PASWOORD\n"
+"\n"
+
+#: src/wput.c:788
+#, fuzzy, c-format
+msgid ""
+"FTP-Options:\n"
+"  -p,  --port-mode             no-passive, turn on port mode ftp (def. "
+"pasv)\n"
+"  -A,  --ascii                 force ASCII  mode-transfer\n"
+"  -B,  --binary                force BINARY mode-transfer\n"
+"  -m,  --chmod                 change mode of transferred files ([0-7]{3})\n"
+msgstr ""
+"FTP-Opties:\n"
+"  -p,  --port-mode             niet-passief, schakel poort mode ftp in (def. "
+"pasv)\n"
+"  -A,  --ascii                 forceer ASCII  mode-transport\n"
+"  -B,  --binary                forceeer BINARY mode-transport\n"
+
+#: src/wput.c:796
+#, c-format
+msgid "       --force-tls             force the useage of TLS\n"
+msgstr "       --force-tls             forceeer het gebruik van TLS\n"
+
+#: src/wput.c:801
+#, c-format
+msgid ""
+"\n"
+"See wput(1) for more detailed descriptions of the options.\n"
+"Report bugs and suggestions via SourceForge at\n"
+"http://sourceforge.net/tracker/?group_id=141519\n"
+msgstr ""
+
+#: src/ftp.c:170
+msgid "Remote file size is bigger than local size. Restarting at 0\n"
+msgstr ""
+"Server bestandsgrootte is groter dan de lokale grootte size. Herstart op 0\n"
+
+#: src/ftp.c:174
+msgid "Remote file size is equal to local size. Restarting at 0\n"
+msgstr ""
+"Server bestandsgrootte is gelijk aan de lokale grootte. Herstart op 0\n"
+
+#: src/ftp.c:178
+msgid "Remote file size is smaller than local size. Restarting at 0.\n"
+msgstr ""
+"Server bestandsgrootte is kleiner dan de lokale grootte. Herstart op 0.\n"
+
+#: src/ftp.c:220
+msgid "Cannot open local source file to read\n"
+msgstr "Kan het lokale bronbestand niet lezen\n"
+
+#: src/ftp.c:241
+#, c-format
+msgid "opening the input-pipe failed: %s\n"
+msgstr "het openen van de invoer-pijp is mislukt: %s\n"
+
+#: src/ftp.c:284
+msgid "Disabling resuming due to ascii-mode transfer\n"
+msgstr "Hervateen uitgeschakeld vanwege ascii-mode transport\n"
+
+#: src/ftp.c:348
+#, c-format
+msgid "local file could not be read: %s\n"
+msgstr "lokaal bestand kon niet worden gelezen: %s\n"
+
+#: src/ftp.c:386
+msgid "Error encountered during uploading data\n"
+msgstr "Fout opgetreden tijdens het verzenden van data\n"
+
+#: src/ftp.c:406
+#, c-format
+msgid "Error encountered during uploading data (%s)\n"
+msgstr "Fout opgetreden tijdens het verzenden van data (%s)\n"
+
+#: src/ftp.c:462
+#, c-format
+msgid "Removing source file `%s'\n"
+msgstr "Bronbestand verwijderen `%s'\n"
+
+#: src/ftp.c:485
+#, c-format
+msgid "No such file or directory: %s\n"
+msgstr ""
+
+#: src/ftp.c:495
+#, c-format
+msgid "RMD of directory %s failed, probably not empty; deleting recursively\n"
+msgstr ""
+
+#: src/ftp.c:508 src/ftp.c:689
+msgid "Failed to change to target directory. Skipping this file/dir.\n"
+msgstr "Niet gelukt om doelmap te veranderen. Overslaan bestand/map.\n"
+
+#: src/ftp.c:525
+#, fuzzy
+msgid "Directory empty, deletion failed.\n"
+msgstr "verbinding mislukt.\n"
+
+#: src/ftp.c:540
+#, fuzzy
+msgid "Failed to change to parent directory. Skipping this file/dir.\n"
+msgstr "Niet gelukt om doelmap te veranderen. Overslaan bestand/map.\n"
+
+#: src/ftp.c:566
+#, c-format
+msgid ""
+"\n"
+"%s deleted.\n"
+"\n"
+msgstr ""
+
+#: src/ftp.c:594
+#, c-format
+msgid "-- Skipping file: `%s'\n"
+msgstr "-- Overslaan bestand: `%s'\n"
+
+#: src/ftp.c:612
+#, c-format
+msgid "--%s-- Deleting file/dir: ftp://%s:xxxxx@%s:%d/%s%s%s\n"
+msgstr ""
+
+#: src/ftp.c:656
+msgid "Skipping all files from this account...\n"
+msgstr "Alle besanden van dit account overslaan...\n"
+
+#: src/ftp.c:724 src/ftp.c:768
+msgid "Unable to set transfer mode. Assuming binary\n"
+msgstr ""
+"Niet mogelijk om transportmode automatisch in te stellen. Ga over naar "
+"binary\n"
+
+#: src/ftp.c:748
+msgid "Skipping this file due to resume/upload/skip rules.\n"
+msgstr ""
+"Dit bestand word overgeslagen vanwege hervatten/verzenden/overslaan regels.\n"
+
+#: src/ftp.c:749
+#, c-format
+msgid "-- Skipping file: %s\n"
+msgstr "-- Overslaan bestand: %s\n"
+
+#: src/ftp.c:795
+#, c-format
+msgid "Send Failed (%s) "
+msgstr "Verzenden Mislukt (%s) "
+
+#: src/ftp.c:797
+msgid "Delete Failed. "
+msgstr ""
+
+#: src/ftp.c:799
+msgid "Skipping this file\n"
+msgstr "Dit bestand wordt overgeslagen\n"
+
+#: src/ftp.c:882
+msgid "Assuming the proxy to do the task.\n"
+msgstr "Laat de proxy de taak uitvoeren.\n"
+
+#: src/ftp.c:886
+msgid "Skipping this URL.\n"
+msgstr "Deze URL wordt overgeslagen.\n"
+
+#: src/ftp.c:921
+msgid ""
+"URL: # or ? functions unimplemented. Assuming they are part of the "
+"filename.\n"
+msgstr ""
+"URL: # of ? functies niet gemplementeerd. Ga er van uit dat deze een deel "
+"zijn van de bestandsnaam.\n"
+
+#: src/socketlib.c:94
+msgid "client: can't open stream socket"
+msgstr "client: kan stream socket niet openen"
+
+#: src/socketlib.c:114
+msgid "server: can't open new socket"
+msgstr "server: kan geen nieuwe socket openen"
+
+#: src/socketlib.c:125
+msgid "server: can't bind local address\n"
+msgstr "server: kan lokale adres niet binden\n"
+
+#: src/socketlib.c:163
+msgid "error accepting the incoming connection"
+msgstr "fout bij het accepteren van de binnenkomende verbinding"
+
+#: src/socketlib.c:181
+#, fuzzy
+msgid "TLS handshake failed\n"
+msgstr "TLS handshake mislukt.\n"
+
+#: src/socketlib.c:240
+#, c-format
+msgid "Receive-Warning: read() timed out. Read '%s' so far.\n"
+msgstr "Ontvangst-Waarschuwing: lees() timed out. Lees '%s' tot nu toe.\n"
+
+#: src/socketlib.c:245
+#, c-format
+msgid "Receive-Error: read() failed. Read '%s' so far. (errno: %s (%d))\n"
+msgstr ""
+"Ontvangst-Fout: lees() mislukt. Lees '%s' tot nu toe. (errno: %s (%d))\n"
+
+#: src/socketlib.c:265
+msgid "recv() timed out. No data received\n"
+msgstr "recv() timed out. Geen data ontvangen\n"
+
+#: src/socketlib.c:430 src/socketlib.c:450 src/socketlib.c:475
+#: src/ftplib.c:349 src/ftplib.c:380 src/ftplib.c:451 src/ftplib.c:484
+#: src/ftplib.c:534 src/ftplib.c:593 src/ftplib.c:779 src/ftplib.c:917
+#: src/ftplib.c:987
+msgid "failed.\n"
+msgstr "mislukt.\n"
+
+#: src/socketlib.c:432
+msgid "Connection to proxy cannot be established.\n"
+msgstr "Verbinding met proxy kan niet opgezet worden.\n"
+
+#: src/socketlib.c:445
+#, c-format
+msgid "read() failed: %d (%d: %s)\n"
+msgstr "read() mislukt: %d (%d: %s)\n"
+
+#: src/socketlib.c:452
+#, c-format
+msgid "Proxy version mismatch (%d)\n"
+msgstr "Proxy versie niet gelijk (%d)\n"
+
+#: src/socketlib.c:470
+msgid "Proxy authentication failure\n"
+msgstr "Proxy authentificatie mislukt\n"
+
+#: src/socketlib.c:477
+#, c-format
+msgid "Proxy method mismatch (%d)\n"
+msgstr "Proxy methode niet gelijk (%d)\n"
+
+#: src/socketlib.c:496
+#, c-format
+msgid "Proxy discarded listen-request. Error-Code: %d\n"
+msgstr "Proxy luister-verzoek verworpen. Fout-code: %d\n"
+
+#: src/socketlib.c:497
+msgid "Disabling listen-tries for proxy\n"
+msgstr "Uitschakelen luisterproeven voor proxy\n"
+
+#: src/socketlib.c:503
+#, c-format
+msgid "Proxy is listening on %s:%d for incoming connections\n"
+msgstr "Proxy luisterd op %s:%d voor binnenkomende verbindingen\n"
+
+#: src/socketlib.c:516
+#, c-format
+msgid "Proxy encountered an error while accepting. Error-Code: %d\n"
+msgstr "Proxy is een fout tegen gekomen tijdens accepteren. Fout-Code: %d\n"
+
+#: src/socketlib.c:534
+#, c-format
+msgid "Using SOCKS5-Proxy %s:%d... "
+msgstr "Gebruikt SOCKS5-Proxy %s:%d... "
+
+#: src/socketlib.c:566
+msgid "Proxy connection established.\n"
+msgstr "Proxy verbinding tot stand gebracht.\n"
+
+#: src/socketlib.c:569
+#, c-format
+msgid "Connection through proxy failed. Error-code: %d\n"
+msgstr "Verbinding via proxy mislukt. Fout-Code: %d\n"
+
+#: src/socketlib.c:624
+#, c-format
+msgid ""
+"Connection could not be established.\n"
+"Proxy states '%s'"
+msgstr ""
+"Verbinding kon niet worden gemaakt.\n"
+"Proxy statussen '%s'"
+
+#: src/ftplib.c:94
+msgid "Receive-Error: Connection broke down.\n"
+msgstr "Ontvangst-Fout: Verbinding verbroken.\n"
+
+#: src/ftplib.c:105
+#, c-format
+msgid "Receive-Error: Invalid FTP-answer (%d bytes): %s\n"
+msgstr "Ontvangst-Fout: Foutief FTP-antwoord (%d bytes): %s\n"
+
+#: src/ftplib.c:107
+msgid "Reconnecting to be sure, nothing went wrong\n"
+msgstr "Opnieuw verbinden om zeker te zijn, niets is fout gegaan\n"
+
+#: src/ftplib.c:191
+#, c-format
+msgid "Connecting to %s:%d... "
+msgstr "Verbinden met %s:%d... "
+
+#: src/ftplib.c:201
+msgid "failed!\n"
+msgstr "mislukt!\n"
+
+#: src/ftplib.c:204
+msgid "connected"
+msgstr "verbonden"
+
+#: src/ftplib.c:216
+#, c-format
+msgid "Connection failed (%s)\n"
+msgstr "Verbinding mislukt (%s)\n"
+
+#: src/ftplib.c:237
+msgid "TLS encryption is explicitly required, but could not be established.\n"
+msgstr "TLS encriptie is benodigd, maar kon niet uitgevoerd worden.\n"
+
+#: src/ftplib.c:254
+#, c-format
+msgid "Logging in as %s ... "
+msgstr "Inloggen als %s ... "
+
+#: src/ftplib.c:271
+msgid "remote server requires a password, but none set. Using an empty one.\n"
+msgstr ""
+"voor de server is een paswoord nodig, maar geen paswoord opgegeven. Gebruik "
+"een leeg paswoord.\n"
+
+#: src/ftplib.c:280
+msgid "Server requires account login, which is not supported.\n"
+msgstr "Deze server vereist inlogging. Dit is niet ondersteund.\n"
+
+#: src/ftplib.c:286
+#, c-format
+msgid "Login-Sequence failed (%s)\n"
+msgstr "Inlogging mislukt (%s)\n"
+
+#: src/ftplib.c:290
+msgid "Logged in!\n"
+msgstr "Ingelogd!\n"
+
+#: src/ftplib.c:307
+#, c-format
+msgid "failed (%s).\n"
+msgstr "mislukt (%s).\n"
+
+#: src/ftplib.c:308
+msgid "encrypted!"
+msgstr "codeerd!"
+
+#: src/ftplib.c:315
+msgid "Setting data protection level to private ... "
+msgstr "Data beveiliging ingesteld op priv ... "
+
+#: src/ftplib.c:331 src/ftplib.c:383 src/ftplib.c:530 src/ftplib.c:596
+#: src/ftplib.c:726 src/ftplib.c:771 src/ftplib.c:805 src/ftplib.c:828
+#: src/ftplib.c:920 src/ftplib.c:962 src/ftplib.c:990
+msgid "done.\n"
+msgstr "klaar.\n"
+
+#: src/ftplib.c:366
+#, c-format
+msgid "done (%s).\n"
+msgstr "klaar (%s).\n"
+
+#: src/ftplib.c:385
+#, c-format
+msgid "Connection cancelled (%s)\n"
+msgstr "Verbinding geannuleerd (%s)\n"
+
+#: src/ftplib.c:446
+#, c-format
+msgid "done (modified on %d.%d.%d at %d:%d:%d)\n"
+msgstr "klaar (aangepast op %d.%d.%d at %d:%d:%d)\n"
+
+#: src/ftplib.c:480
+#, c-format
+msgid "done (%s bytes)\n"
+msgstr "klaar (%s bytes)\n"
+
+#: src/ftplib.c:551 src/ftplib.c:568 src/ftplib.c:621
+#, c-format
+msgid " failed (%s).\n"
+msgstr " mislukt (%s).\n"
+
+#: src/ftplib.c:624
+#, fuzzy
+msgid " done.\n"
+msgstr "klaar.\n"
+
+#: src/ftplib.c:626
+msgid "\n"
+msgstr ""
+
+#: src/ftplib.c:649
+#, c-format
+msgid "Cannot initiate data-connection (%s)\n"
+msgstr "Kan geen data-verbinding tot stand brengen (%s)\n"
+
+#: src/ftplib.c:694
+#, c-format
+msgid "listing directory failed (%s)\n"
+msgstr "map weergeven mislukt (%s)\n"
+
+#: src/ftplib.c:723
+msgid ""
+"failed.\n"
+"Server seems not to support resuming. Restarting at 0\n"
+msgstr ""
+"mislukt.\n"
+"Het lijkt erop dat de server geen hervatten ondersteund. Herstart op 0\n"
+
+#: src/ftplib.c:743
+msgid "[not done, but should be allright]\n"
+msgstr "[niet klaar, maar het zou ok moeten zijn]\n"
+
+#: src/ftplib.c:775
+#, c-format
+msgid "failed (%s). (disabling resuming)\n"
+msgstr "mislukt (%s). (hervatten uitschakelen)\n"
+
+#: src/ftplib.c:782
+msgid "Trying to switch PORT/PASV mode\n"
+msgstr "probeer PORT/PASV mode om te zetten\n"
+
+#: src/ftplib.c:786 src/ftplib.c:808 src/ftplib.c:831
+#, c-format
+msgid "failed (%d %s). (skipping)\n"
+msgstr "mislukt (%d %s). (overslaan)\n"
+
+#: src/ftplib.c:800 src/ftplib.c:822 src/ftplib.c:825
+#, fuzzy, c-format
+msgid "failed (%s)\n"
+msgstr "mislukt (%s).\n"
+
+#: src/ftplib.c:932
+msgid "connection failed.\n"
+msgstr "verbinding mislukt.\n"
+
+#: src/ftplib.c:950
+msgid "Trying to listen on proxy server... "
+msgstr "Probeer te luisteren op proxy server... "
+
+#: src/ftplib.c:953
+msgid "failed. Falling back to listen locally\n"
+msgstr "mislukt. Val terug op lokaal luisteren\n"
+
+#: src/ftplib.c:956
+msgid ""
+"Unless FXP is enabled remotely, your control-connection should be from the "
+"same IP-address, as your PORT bind-request. So you should consider PASV-mode "
+"or reconnect without a proxy.\n"
+msgstr ""
+"Tenzij FXP wordt toegelaten, zou uw controle-verbinding van hetzelfde IP-"
+"adress moeten zijn, als uw PORT bindings-aanvraag. U moet PASV-mode "
+"overwegen of opnieuw verbinden zonder proxy.\n"
+
+#: src/ftplib.c:966
+msgid "Using port-mode. Unable to use the http-proxy for this connection\n"
+msgstr ""
+"Gebruik port-mode. Niet mogelijk om http-proxy te gebruiken voor deze "
+"verbinding\n"
+
+#: src/ftplib.c:978
+msgid "Cannot determine local IP address"
+msgstr "Kan lokaal IP adres niet vinden"
+
+#: src/utils.c:247
+#, c-format
+msgid "parse-error in escaped character: %c is not a hexadecimal character\n"
+msgstr "doorvoer-fout in escaped karakter: %c is geen hexadecimal karakter\n"
+
+#: src/utils.c:271
+#, c-format
+msgid "Waiting %d seconds... "
+msgstr "Wacht %d seconden... "
+
+#: src/utils.c:285
+#, c-format
+msgid "No http-header found. Assuming socks-proxy $host:$port for `%s'\n"
+msgstr "Geen http-header gevonden. Gebruik socks-proxy $host:$port voor `%s'\n"
+
+#: src/utils.c:312
+#, c-format
+msgid "No port specified. Assuming default port %d.\n"
+msgstr "Geen poort opgegeven. Gebruik standaard poort %d.\n"
+
+#: src/queue.c:130
+msgid "Error: Please specify a url first.\n"
+msgstr ""
+
+#: src/queue.c:335
+#, c-format
+msgid "Error encountered but ignored during stat of `%s'.\n"
+msgstr "Fout gevonden maar genegeerd tijdens stat van `%s'.\n"
+
+#: src/queue.c:342
+#, c-format
+msgid "Error encountered but ignored during opendir of `%s'.\n"
+msgstr "Fout gevonden maar genegeer tijdens opendir van `%s'.\n"
+
+#: src/queue.c:383
+msgid "Seems as though there are two equivalent entries to upload.\n"
+msgstr "Het lijkt erop dat er twee gelijke ingangen zijn om te verzenden.\n"
+
+#: src/queue.c:439
+#, c-format
+msgid "the url `%s' could not be parsed\n"
+msgstr "de url `%s' kon niet verwerkt worden\n"
+
+#: src/queue.c:460
+msgid ""
+"Neither a remote location nor a local filename has been specified. Assuming "
+"you want to upload the current working directory to the remote server.\n"
+msgstr ""
+"Geen server lokatie nog een lokale bestandsnaam zijn opgegeven. Ga er van "
+"uit dat U de huide map wilt verzenden naar de server.\n"
+
+#: src/queue.c:496
+msgid ""
+"No local file specified and no file found from URL.\n"
+"Assuming the current working directory is to be uploaded to the remote "
+"server.\n"
+msgstr ""
+"Geen lokaal bestand opgegeven an geen bestand gevonden in de URL.\n"
+"Ga er van uit dat de huidige map moet worden verzonden naar de server.\n"
+
+#: src/queue.c:531
+#, c-format
+msgid ""
+"File `%s' does not exist. Assuming you supply its input using the -I flag.\n"
+msgstr ""
+"Bestand `%s' bestaat niet. Ga er van uit dat u invoer gebruikt met behulp "
+"van de -I optie.\n"
+
+#: src/queue.c:541
+#, c-format
+msgid "File `%s' does not exist. Don't know what to do about this URL.\n"
+msgstr "Bestand `%s' bestaat niet. Geen idee wat te doen met deze URL.\n"
+
+#: src/progress.c:337
+#, c-format
+msgid "Length: %s"
+msgstr "Lengde: %s"
+
+#: src/progress.c:341
+#, c-format
+msgid " [%s to go]\n"
+msgstr " [%s te gaan]\n"
+
+#: src/progress.c:348
+msgid ""
+"%* [ skipped %dK ]\n"
+"%* %dK "
+msgstr ""
+"%* [ overgeslagen %dK ]\n"
+"%* %dK "
+
+#: src/ftp-ls.c:957
+msgid "Unsupported listing type, trying Unix listing parser.\n"
+msgstr "Niet ondersteunde lijst-type, probeer Unix-lijst-verwerking.\n"
+
+#: src/ftp-ls.c:1003 src/ftp-ls.c:1005
+#, c-format
+msgid "Index of /%s on %s:%d"
+msgstr "Inhoud van /%s op %s:%d"
+
+#: src/ftp-ls.c:1028
+#, c-format
+msgid "time unknown       "
+msgstr "tijd onbekend       "
+
+#: src/ftp-ls.c:1032
+#, c-format
+msgid "File        "
+msgstr "Bestand        "
+
+#: src/ftp-ls.c:1035
+#, c-format
+msgid "Directory   "
+msgstr "Map   "
+
+#: src/ftp-ls.c:1038
+#, c-format
+msgid "Link        "
+msgstr "Link        "
+
+#: src/ftp-ls.c:1041
+#, c-format
+msgid "Not sure    "
+msgstr "Niet zeker    "
+
+#: src/ftp-ls.c:1059
+#, c-format
+msgid " (%s bytes)"
+msgstr ""

@@ -1,0 +1,178 @@
+#! /bin/sh
+echo "Begin update file check"
+
+FTPROOT_DIR="/home/macao/FtpRoot/"
+ROUTEALL_DIR="/home/macao/FtpRoot/route_all/"
+BICCODE_DIR="/home/macao/FtpRoot/BicCode/"
+CFGFILE_DIR="/home/macao/FtpRoot/BicCfgFile/"
+ROUTEFS_DIR="/home/macao/FtpRoot/BicRootfs/"
+APCODE_DIR="/home/macao/FtpRoot/ApCode/"
+
+cd $FTPROOT_DIR
+
+if [ -f updateFileCheck.result ]
+then
+	rm updateFileCheck.result
+fi
+
+touch updateFileCheck.result
+#校验线路文件
+if [ -f route_all.zip ]
+then
+	if ! [ -f route_all.md5 ]
+	then
+		echo "route_all.md5 not found"
+		echo "route_all=0" >> ./updateFileCheck.result
+	else
+		unzip -o route_all.zip -d .
+		sync
+		cd route_all
+		find ./ -type f -print|xargs md5sum|sort -u > ../route_all.md5.local
+		sync
+		cd ../
+		diff -r route_all.md5 route_all.md5.local
+		if [ $? -ne 0 ]
+		then
+			echo "route_all check failed,delete directory and pack"
+			rm -rf $FTPROOT_DIR"route_run/"
+			rm -rf $FTPROOT_DIR"route_all.zip"
+			echo "route_all=-1" >> ./updateFileCheck.result
+		else 
+			echo "route_all check successful"
+			echo "route_all=1" >> ./updateFileCheck.result
+		fi
+	fi
+else
+	echo "route_all.zip not found"
+	echo "route_all=-2" >> ./updateFileCheck.result
+fi
+
+#校验应用程序文件
+if [ -f BicCode.zip ]
+then
+	if ! [ -f BicCode.md5 ]
+	then
+		echo "BicCode.md5 not found"
+		echo "BicCode=0" >> ./updateFileCheck.result
+	else
+		unzip -o BicCode.zip -d .
+		sync
+		cd BicCode
+		find ./ -type f -print|xargs md5sum|sort -u > ../BicCode.md5.local
+		sync
+		cd ../
+		diff -r BicCode.md5 BicCode.md5.local
+		if [ $? -ne 0 ]
+		then
+			echo "BicCode check failed,delete directory and pack"
+			rm -rf $FTPROOT_DIR"BicCode/"
+			rm -rf $FTPROOT_DIR"BicCode.zip"
+			echo "BicCode=-1" >> ./updateFileCheck.result
+		else 
+			echo "BicCode check successful"
+			echo "BicCode=1" >> ./updateFileCheck.result
+		fi
+	fi
+else
+	echo "BicCode.zip not found"
+	echo "BicCode=-2" >> ./updateFileCheck.result
+fi
+
+
+#校验配置文件
+if [ -f BicCfgFile.zip ]
+then
+	if ! [ -f BicCfgFile.md5 ]
+	then
+		echo "BicCfgFile.md5 not found"
+		echo "BicCfgFile=0" >> ./updateFileCheck.result
+	else
+		unzip -o BicCfgFile.zip -d .
+		sync
+		cd BicCfgFile
+		find ./ -type f -print|xargs md5sum|sort -u > ../BicCfgFile.md5.local
+		sync
+		cd ../
+		diff -r BicCfgFile.md5 BicCfgFile.md5.local
+		if [ $? -ne 0 ]
+		then
+			echo "BicCfgFile check failed,delete directory and pack"
+			rm -rf $FTPROOT_DIR"BicCfgFile/"
+			rm -rf $FTPROOT_DIR"BicCfgFile.zip"
+			echo "BicCfgFile=-1" >> ./updateFileCheck.result
+		else 
+			echo "BicCfgFile check successful"
+			echo "BicCfgFile=1" >> ./updateFileCheck.result
+		fi
+	fi
+else
+	echo "BicCfgFile.zip not found"
+	echo "BicCfgFile=-2" >> ./updateFileCheck.result
+fi
+
+#校验根文件系统文件
+if [ -f BicRootfs.zip ]
+then
+	if ! [ -f BicRootfs.md5 ]
+	then
+		echo "BicRootfs.md5 not found"
+		echo "BicRootfs=0" >> ./updateFileCheck.result
+	else
+		unzip -o BicRootfs.zip -d .
+		sync
+		cd BicRootfs
+		find ./ -type f -print|xargs md5sum|sort -u > ../BicRootfs.md5.local
+		sync
+		cd ../
+		diff -r BicRootfs.md5 BicRootfs.md5.local
+		if [ $? -ne 0 ]
+		then
+			echo "BicRootfs check failed,delete directory and pack"
+			rm -rf $FTPROOT_DIR"BicRootfs/"
+			rm -rf $FTPROOT_DIR"BicRootfs.zip"
+			echo "BicRootfs=-1" >> ./updateFileCheck.result
+		else 
+			echo "BicRootfs check successful"
+			echo "BicRootfs=1" >> ./updateFileCheck.result
+		fi
+	fi
+else
+	echo "BicRootfs.zip not found"
+	echo "BicRootfs=-2" >> ./updateFileCheck.result
+fi
+
+
+#校验AP固件文件
+if [ -f ApCode.zip ]
+then
+	if ! [ -f ApCode.md5 ]
+	then
+		echo "ApCode.md5 not found"
+		echo "ApCode=0" >> ./updateFileCheck.result
+	else
+		unzip -o ApCode.zip -d .
+		sync
+		cd ApCode
+		find ./ -type f -print|xargs md5sum|sort -u > ../ApCode.md5.local
+		sync
+		cd ../
+		diff -r ApCode.md5 ApCode.md5.local
+		if [ $? -ne 0 ]
+		then
+			echo "ApCode check failed,delete directory and pack"
+			rm -rf $FTPROOT_DIR"ApCode/"
+			rm -rf $FTPROOT_DIR"ApCode.zip"
+			echo "ApCode=-1" >> ./updateFileCheck.result
+		else 
+			echo "ApCode check successful"
+			echo "ApCode=1" >> ./updateFileCheck.result
+		fi
+	fi
+else
+	echo "ApCode.zip not found"
+	echo "ApCode=-2" >> ./updateFileCheck.result
+fi
+
+#删除校验文件
+#rm *.md5
+#rm *.md5.local

@@ -1,0 +1,26 @@
+Date:2017-02-02 08:58:47.842 <  INFO>,[Center]--Driver manu click route conf,routeName is 583.serviceCoding is 99
+Date:2017-02-02 08:58:47.851 <  INFO>,[Center]--Route conf,route is 583,routeCoding is 05830.serviceCoding is 99,busNum is 94735890E56B
+
+Date:2017-02-02 08:58:47.877 <  INFO>,[Center]--CenterResInit: bic trip control info init finished, trip total is 1.
+Date:2017-02-02 08:58:47.879 <  INFO>,[Center]--CenterResInit: bic dispatch info init finished, dispatchTotal=0 dispatch1Total=0 dispatch2Total=0 dispatch3Total=0 unreadTotal=0.
+Date:2017-02-02 08:58:47.898 <  INFO>,[Center]--CenterResInit: bic audio hint list get finished.
+Date:2017-02-02 08:58:47.899 <  INFO>,[Center]--CenterResInit: save bic operation info to file.
+Date:2017-02-02 08:58:47.909 <  INFO>,[Center]--CenterResInit: bic phone list get finished.
+Date:2017-02-02 08:58:47.914 <  INFO>,[Center]--CenterProcess: center process resource initialization finished, start loop...
+Date:2017-02-02 08:59:06.893 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x72,msgLen=20
+Date:2017-02-02 08:59:06.894 <  INFO>,[Center]--PadPowerOnPro:padVersion = V1.0.0
+Date:2017-02-02 08:59:07.106 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-02 08:59:07.266 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-02 08:59:07.276 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-02 08:59:07.283 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-02 08:59:07.289 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-02 08:59:07.297 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-02 09:08:13.566 <  INFO>,[Center]--CenterCheckGpsTimeUpdate rewrite RTC time 17.02.02-01:08:14(系统时间要在此基础上加8小时)
+Date:2017-02-02 09:08:31.003 <  INFO>,[Center]--上报违规,type is 9.
+Date:2017-02-02 09:08:32.993 <  INFO>,[Center]--上报违规,type is 9.
+Date:2017-02-02 09:09:50.998 <  INFO>,[Center]--上报违规,type is 9.
+Date:2017-02-02 09:13:38.996 <  INFO>,[Center]--上报违规,type is 9.
+Date:2017-02-02 09:25:28.003 <  INFO>,[Center]--上报违规,type is 1.
+Date:2017-02-02 09:28:52.994 <  INFO>,[Center]--CenterPcStaMsgRecvPro: receive station process message, cmd = 0x0a
+Date:2017-02-02 09:28:52.996 <  INFO>,[Center]--Route enter sta: routeCoding is 05830,serviceCoding is 99,staCoding is 05830028,staName is 芳村西塱站总站,type is '1'
+

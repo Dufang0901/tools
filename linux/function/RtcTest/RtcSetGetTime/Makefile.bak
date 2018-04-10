@@ -1,0 +1,4 @@
+all: RtcTest.c
+	 /home/linca/freescale/gcc-freescale/fsl-linaro-toolchain/bin/arm-linux-gcc -Wall RtcTest.c -o RtcTest
+clean:
+	rm -rf *.o RtcTest

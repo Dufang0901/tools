@@ -1,0 +1,30 @@
+#! /bin/sh
+echo "Begin update file check"
+
+ROOT_DIR=`dirname $0`
+
+cd $ROOT_DIR/"FtpRoot"
+echo `pwd`
+
+if [ -f route_all.zip ]
+then
+	if ! [ -f file.md5 ]
+	then
+		echo "file.md5 not found,exit"
+		touch 0.result
+		exit 0
+	fi
+	
+	unzip -o route_all.zip -d . > /dev/null
+	cd route_all
+	find . * -print|xargs md5sum|sort > ../file.md5.local
+	cd ../
+	diff -r file.md5 file.md5.local
+	if [ $? -ne 0 ]
+	then
+		echo "file check failed"
+	else 
+		echo "file check successful"
+	fi
+
+fi

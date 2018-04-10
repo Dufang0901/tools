@@ -1,0 +1,17 @@
+Date:2017-02-01 00:04:57.477 <  INFO>,[Center]--Driver manu click route conf,routeName is 583.serviceCoding is 99
+Date:2017-02-01 00:04:57.481 <  INFO>,[Center]--Route conf,route is 583,routeCoding is 05830.serviceCoding is 99,busNum is 94735890E56B
+
+Date:2017-02-01 00:04:57.500 <  INFO>,[Center]--CenterResInit: bic trip control info init finished, trip total is 1.
+Date:2017-02-01 00:04:57.503 <  INFO>,[Center]--CenterResInit: bic dispatch info init finished, dispatchTotal=0 dispatch1Total=0 dispatch2Total=0 dispatch3Total=0 unreadTotal=0.
+Date:2017-02-01 00:04:57.513 <  INFO>,[Center]--CenterResInit: bic audio hint list get finished.
+Date:2017-02-01 00:04:57.520 <  INFO>,[Center]--CenterResInit: save bic operation info to file.
+Date:2017-02-01 00:04:57.522 <  INFO>,[Center]--CenterResInit: bic phone list get finished.
+Date:2017-02-01 00:04:57.526 <  INFO>,[Center]--CenterProcess: center process resource initialization finished, start loop...
+Date:2017-02-01 00:05:16.216 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x72,msgLen=20
+Date:2017-02-01 00:05:16.217 <  INFO>,[Center]--PadPowerOnPro:padVersion = V1.0.0
+Date:2017-02-01 00:05:16.444 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-01 00:05:16.599 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-01 00:05:16.607 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-01 00:05:16.614 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-01 00:05:16.622 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1
+Date:2017-02-01 00:05:16.628 <  INFO>,[Center]--CenterPcHmiMsgPro: receive hmi process message cmd = 0x32,msgLen=1

@@ -1,0 +1,857 @@
+# Greek translation for wput
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the wput package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wput\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/tracker/?group_id=141519\n"
+"POT-Creation-Date: 2008-09-26 16:06+0200\n"
+"PO-Revision-Date: 2008-02-24 03:55+0000\n"
+"Last-Translator: George & Elina <Unknown>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-09-26 15:40+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/wput.c:152
+msgid "Resuming in background. Logging output to 'wput-log'.\n"
+msgstr "Επανάληψη στο παρασκήνιο. Καταγραφή εξόδου στο 'wput-log'.\n"
+
+#: src/wput.c:154 src/wput.c:683
+msgid "Unable to open logfile"
+msgstr "Αδύνατο το άνιγμα του αρχείου καταγραφής"
+
+#: src/wput.c:162 src/wput.c:172 src/wput.c:182 src/wput.c:359 src/wput.c:727
+#: src/ftp.c:880 src/ftp.c:920 src/ftplib.c:270 src/ftplib.c:954
+#: src/ftplib.c:965 src/utils.c:284 src/utils.c:311 src/queue.c:334
+#: src/queue.c:341 src/queue.c:382 src/queue.c:459 src/queue.c:495
+#: src/queue.c:530
+msgid "Warning: "
+msgstr "Προειδοποίηση: "
+
+#: src/wput.c:163
+msgid ""
+"background-mode might not work correctly, if the input-pipe needs to read "
+"from stdin (like cat -).\n"
+msgstr ""
+"η λειτουργία παρασκηνίου πιθανόν να μη δουλεύει σωστά, αν ο αγωγός εισόδου "
+"χρειάζεται να διαβάσει από το stdin (όπως cat -).\n"
+
+#: src/wput.c:173
+msgid ""
+"reading urls from stdin, while running in background-mode is not reliable.\n"
+msgstr ""
+"η ανάγνωση url από το stdin, ενώ το πρόγραμμα εκτελείται στο παρασκήνιο δεν "
+"είναι αξιόπιστη.\n"
+
+#: src/wput.c:183
+msgid ""
+"Ignoring request to turn proxy-usage on, since no proxy is configured.\n"
+msgstr ""
+"Αγνόηση αιτήματος για ενεργοποίηση χρήσης proxy, καθώς δεν υπάρχουν "
+"ρυθμίσεις για κανένα proxy.\n"
+
+#: src/wput.c:212
+msgid "Nothing done. Try `wput --help'.\n"
+msgstr "Καμία ενέργεια. Δοκιμάστε `wput --help'.\n"
+
+#: src/wput.c:214
+#, c-format
+msgid "FINISHED --%s--\n"
+msgstr "ΟΛΟΚΛΗΡΩΘΗΚΕ --%s--\n"
+
+#: src/wput.c:218
+#, c-format
+msgid "Transfered %s bytes in %d file at %s\n"
+msgstr "Μεταφέρθηκαν %s bytes σε %d αρχεία με %s\n"
+
+#: src/wput.c:219
+#, c-format
+msgid "Transfered %s bytes in %d files at %s\n"
+msgstr "Μεταφέρθηκαν %s bytes από %d αρχεία σε %s\n"
+
+#: src/wput.c:228
+#, c-format
+msgid "Skipped %d file.\n"
+msgstr "Αγνόηση αρχείου %d.\n"
+
+#: src/wput.c:228
+#, c-format
+msgid "Skipped %d files.\n"
+msgstr "Αγνόηση %d αρχείων.\n"
+
+#: src/wput.c:230
+#, c-format
+msgid "Transmission of %d file failed.\n"
+msgstr "Η μετάδοση του %d αρχείου απέτυχε.\n"
+
+#: src/wput.c:230
+#, c-format
+msgid "Transmission of %d files failed.\n"
+msgstr "Η μετάδοση %d αρχείων απέτυχε.\n"
+
+#: src/wput.c:302 src/ftp.c:219 src/ftp.c:240 src/ftp.c:347 src/ftp.c:385
+#: src/ftp.c:405 src/ftp.c:884 src/socketlib.c:124 src/socketlib.c:264
+#: src/socketlib.c:431 src/socketlib.c:451 src/socketlib.c:476
+#: src/socketlib.c:495 src/socketlib.c:515 src/socketlib.c:568
+#: src/socketlib.c:623 src/ftplib.c:279 src/ftplib.c:285 src/ftplib.c:648
+#: src/ftplib.c:693 src/queue.c:438 src/queue.c:540
+msgid "Error: "
+msgstr "Σφάλμα: "
+
+#: src/wput.c:303 src/wput.c:360 src/ftp.c:881 src/ftp.c:885
+#, c-format
+msgid "`%s' could not be resolved. "
+msgstr "αδύνατη η επίλυση του `%s'. "
+
+#: src/wput.c:304
+msgid "Exiting.\n"
+msgstr "Έξοδος.\n"
+
+#: src/wput.c:361
+msgid "Disabling proxy support.\n"
+msgstr "Απενεργοποίηση υποστήριξης proxy.\n"
+
+#: src/wput.c:455
+#, c-format
+msgid "netrc file '%s' cannot be read. skipping\n"
+msgstr "Αδύνατη η ανάγνωση του netrc αρχείου '%s'. Αγνόηση\n"
+
+#: src/wput.c:485
+#, c-format
+msgid "password_file '%s' cannot be read. skipping\n"
+msgstr "Αδύνατη η ανάγνωση του password_file '%s'. Αγνόηση\n"
+
+#: src/wput.c:488
+msgid ""
+"Warning: You are using a wput password file. This is deprecated!\n"
+"         Please consider switch to the widely used netrc-files.\n"
+msgstr ""
+"Προειδοποίηση: Χρησιμοποιείτε ένα αρχείο κωδικού πρόσβασης wput. Αυτό "
+"αποδοκιμάζεται!\n"
+"         Παρακαλώ, σκεφτείτε την εναλλαγή σε ευρέως χρησιμοποιούμενα αρχεία "
+"netrc.\n"
+
+#: src/wput.c:532
+#, c-format
+msgid "Fatal error while opening '%s': %s\n"
+msgstr "Μοιραίο λάθος κατά το άνοιγμα του '%s': %s\n"
+
+#: src/wput.c:565
+#, c-format
+msgid "%s#%d: Option '%s' not recognized\n"
+msgstr "%s#%d: Μη αναγνωρίσιμη επιλογή '%s'\n"
+
+#: src/wput.c:566
+#, c-format
+msgid "%s#%d: Unknow value '%s' for '%s'\n"
+msgstr "%s#%d: Άγνωστη τιμή '%s' για '%s'\n"
+
+#: src/wput.c:678
+#, c-format
+msgid "Option %s should not appear here :|\n"
+msgstr "Η επιλογή %s δεν έπρεπε να εμφανίζεται εδώ :|\n"
+
+#: src/wput.c:728
+msgid ""
+"You supplied an input-pipe. This is only to be used as fallback, if no "
+"filename can be found from the URL. This might not be the desired behavour. "
+"TODO\n"
+msgstr ""
+
+#: src/wput.c:737
+#, c-format
+msgid "wput version: %s\n"
+msgstr "έκδοση wput: %s\n"
+
+#: src/wput.c:741
+#, c-format
+msgid ""
+"Usage: wput [options] [file]... [url]...\n"
+"  url        ftp://[username[:password]@]hostname[:port][/[path/][file]]\n"
+"\n"
+"Startup:\n"
+"  -V, --version         Display the version of wput and exit.\n"
+"  -h, --help            Print this help-screen\n"
+msgstr ""
+"Χρήση: wput [επιλογές] [αρχείο]... [url]...\n"
+"  url ftp://[χρήστης[:κωδικός]@]hostname[:θύρα][/[διαδρομή/][αρχείο]]\n"
+"\n"
+"Έναρξη:\n"
+"  -V, --έκδοση Εμφάνιση της έκδοσης του wput και έξοδος.\n"
+"  -h, --βοήθεια Εμφάνιση αυτής της βοηθητικής οθόνης.\n"
+
+#: src/wput.c:748
+#, c-format
+msgid "  -b, --background      go to background after startup\n"
+msgstr ""
+"  -b, --background εκτέλεση του προγράμματος στο παρασκήνιο μετά την έναρξη\n"
+
+#: src/wput.c:753
+#, c-format
+msgid ""
+"Logging and input file:\n"
+"  -o,  --output-file=FILE      log messages to FILE\n"
+"  -a,  --append-output=FILE    append log messages to FILE\n"
+"  -q,  --quiet                 quiet (no output)\n"
+"  -v,  --verbose               be verbose\n"
+"  -d,  --debug                 debug output\n"
+"  -nv, --less-verbose          be less verbose\n"
+"  -i,  --input-file=FILE       read the URLs from FILE\n"
+"  -s,  --sort                  sorts all input URLs by server-ip and path\n"
+"       --basename=PATH         snip PATH off each file when appendig to an "
+"URL\n"
+"  -I,  --input-pipe=COMMAND    take the output of COMMAND as data-source\n"
+"  -R,  --remove-source-files   unlink files upon successful upload\n"
+"\n"
+msgstr ""
+
+#: src/wput.c:769
+#, c-format
+msgid ""
+"Upload:\n"
+"       --bind-address=ADDR     bind to ADDR (hostname or IP) on local host\n"
+"  -t,  --tries=NUMBER          set retry count to NUMBER (-1 means "
+"infinite)\n"
+"  -nc, --dont-continue         do not resume partially-uploaded files\n"
+"  -u,  --reupload              do not skip already completed files\n"
+"       --skip-larger           do not upload files if remote size is larger\n"
+"       --skip-existing         do not upload files that exist remotely\n"
+"  -N,  --timestamping          don't re-upload files unless newer than "
+"remote\n"
+"  -T,  --timeout=10th-SECONDS  set various timeouts to 10th-SECONDS\n"
+"  -w,  --wait=10th-SECONDS     wait 10th-SECONDS between uploads. (default: "
+"0)\n"
+"       --random-wait           wait from 0...2*WAIT secs between uploads.\n"
+"       --waitretry=SECONDS     wait SECONDS between retries of an upload\n"
+"  -l,  --limit-rate=RATE       limit upload rate to RATE\n"
+"  -nd, --no-directories        do not create any directories\n"
+"  -Y,  --proxy=http/socks/off  set proxy type or turn off\n"
+"       --proxy-user=NAME       set the proxy-username to NAME\n"
+"       --proxy-pass=PASS       set the proxy-password to PASS\n"
+"\n"
+msgstr ""
+"Άνοδος:\n"
+"       --bind-address=ΔΙΕΥΘΥΝΣΗ bind στη ΔΙΕΥΘΥΝΣΗ (hostname ή IP) στον "
+"τοπικό host\n"
+"  -t, --tries=ΑΡΙΘΜΟΣ ορίστε την τιμή του μετρητή επαναλήψεων ίση με ΑΡΙΘΜΟΣ "
+"(-1 σημαίνει άπειρες)\n"
+"  -nc, --dont-continue δεν επαναλαμβάνεται τη διαδικασία για μερικώς-"
+"ανεβασμένα αρχεία\n"
+"  -u, reupload δεν αγνοούνται ήδη ολοκληρωμένα αρχεία.\n"
+"       --skip-larger δεν ανεβαίνουν αρχεία αν το μέγεθος του απομακρυσμένου "
+"αρχείου είναι μεγαλύτερο\n"
+"       --skip-existing δεν ανεβαίνουν αρχεία που υπάρχουν ήδη στον "
+"απομακρυσμένο υπολογιστή\n"
+"  -Ν, --timestamping δεν ανεβαίνουν αρχεία εκτός αν είναι νεώτερα από τα ήδη "
+"υπάρχοντα στον απομακρυσμένο υπολογιστή\n"
+"  -Τ, --timeout=10τα-ΔΕΥΤΕΡΟΛΕΠΤΟΥ ορίστε το μέγιστο χρόνο διακοπής σε 10α-"
+"ΔΕΥΤΕΡΟΛΕΠΤΟΥ\n"
+"  -w, --wait=10τα-ΔΕΥΤΕΡΟΛΕΠΤΟΥ χρόνος αναμονής σε 10α-ΔΕΥΤΕΡΟΛΕΠΤΟΥ μεταξύ "
+"ανόδων. (προεπιλεγμένος: 0)\n"
+"       --random-wait αναμονή από 0... ως ...2*ANAMONH δευτερόλεπτα μεταξύ "
+"ανόδων.\n"
+"       --waitretry=ΔΕΥΤΕΡΟΛΕΠΤΑ αναμονή σε ΔΕΥΤΕΡΟΛΕΠΤΑ μεταξύ επανάληψεων "
+"προσπαθειών για το αρχείο που ανεβάζεται\n"
+"  -l, -limit-rate=ΠΟΣΟΣΤΟ περιορίστε σε ΠΟΣΟΣΤΟ το αρχείο που ανεβάζετε\n"
+"  -nd, --no-directories δεν δημιουργούνται φάκελοι\n"
+"  -Y, --proxy==http/socks/off ορίστε τον τύπο proxy ή απενεργοποήστε το "
+"αντίστοιχα\n"
+"       --proxy-user=ΧΡΗΣΤΗΣ ορίστε το όνομα του ΧΡΗΣΤΗΣ για το proxy\n"
+"       --proxy-pass=ΚΩΔΙΚΟΣ ορίστε τον κωδικό του χρήστη για το proxy\n"
+"\n"
+
+#: src/wput.c:788
+#, c-format
+msgid ""
+"FTP-Options:\n"
+"  -p,  --port-mode             no-passive, turn on port mode ftp (def. "
+"pasv)\n"
+"  -A,  --ascii                 force ASCII  mode-transfer\n"
+"  -B,  --binary                force BINARY mode-transfer\n"
+"  -m,  --chmod                 change mode of transferred files ([0-7]{3})\n"
+msgstr ""
+
+#: src/wput.c:796
+#, c-format
+msgid "       --force-tls             force the useage of TLS\n"
+msgstr ""
+
+#: src/wput.c:801
+#, c-format
+msgid ""
+"\n"
+"See wput(1) for more detailed descriptions of the options.\n"
+"Report bugs and suggestions via SourceForge at\n"
+"http://sourceforge.net/tracker/?group_id=141519\n"
+msgstr ""
+"\n"
+"Δείτε wput(1) για πιο αναλυτικές περιγραφές των επιλογών.\n"
+"Αναφέρετε λάθη και προτάσεις μέσω του SourceForge στο\n"
+"http://sourceforge.net/tracker/?group_id=141519\n"
+
+#: src/ftp.c:170
+msgid "Remote file size is bigger than local size. Restarting at 0\n"
+msgstr ""
+"Το μέγεθος του απομακρυσμένου αρχείου είναι μεγαλύτερο από το μέγεθος του "
+"τοπικού αρχείου. Επανέναρξη από το 0.\n"
+
+#: src/ftp.c:174
+msgid "Remote file size is equal to local size. Restarting at 0\n"
+msgstr ""
+"Το μέγεθος του απομακρυσμένου αρχείου είναι ίσο με το μέγεθος του τοπικού "
+"αρχείου. Επανέναρξη από το 0.\n"
+
+#: src/ftp.c:178
+msgid "Remote file size is smaller than local size. Restarting at 0.\n"
+msgstr ""
+"Το μέγεθος του απομακρυσμένου αρχείου είναι μικρότερο από το μέγεθος του "
+"τοπικού αρχείου. Επανέναρξη από το 0.\n"
+
+#: src/ftp.c:220
+msgid "Cannot open local source file to read\n"
+msgstr "Αδύνατο το άνοιγμα του τοπικού πηγαίου αρχείου για ανάγνωση\n"
+
+#: src/ftp.c:241
+#, c-format
+msgid "opening the input-pipe failed: %s\n"
+msgstr "Το άνοιγμα του αγωγού εισόδου απέτυχε: %s\n"
+
+#: src/ftp.c:284
+msgid "Disabling resuming due to ascii-mode transfer\n"
+msgstr "Απενεργοποίηση επανάληψης λόγω λειτουργίας ascii για τη μεταφορά.\n"
+
+#: src/ftp.c:348
+#, c-format
+msgid "local file could not be read: %s\n"
+msgstr "αδύνατη η ανάγνωση του τοπικού αρχείου: %s\n"
+
+#: src/ftp.c:386
+msgid "Error encountered during uploading data\n"
+msgstr "Υπήρξε σφάλμα κατά το ανέβασμα δεδομένων\n"
+
+#: src/ftp.c:406
+#, c-format
+msgid "Error encountered during uploading data (%s)\n"
+msgstr "Υπήρξε σφάλμα κατά το ανέβασμα δεδομένων (%s)\n"
+
+#: src/ftp.c:462
+#, c-format
+msgid "Removing source file `%s'\n"
+msgstr "Αφαίρεση πηγαίου αρχείου `%s'\n"
+
+#: src/ftp.c:485
+#, c-format
+msgid "No such file or directory: %s\n"
+msgstr ""
+
+#: src/ftp.c:495
+#, c-format
+msgid "RMD of directory %s failed, probably not empty; deleting recursively\n"
+msgstr ""
+
+#: src/ftp.c:508 src/ftp.c:689
+msgid "Failed to change to target directory. Skipping this file/dir.\n"
+msgstr "Αποτυχία αλλαγής φακέλου προορισμού. Αγνόηση του αρχείου/φακέλου.\n"
+
+#: src/ftp.c:525
+#, fuzzy
+msgid "Directory empty, deletion failed.\n"
+msgstr "Η σύνδεση απέτυχε.\n"
+
+#: src/ftp.c:540
+#, fuzzy
+msgid "Failed to change to parent directory. Skipping this file/dir.\n"
+msgstr "Αποτυχία αλλαγής φακέλου προορισμού. Αγνόηση του αρχείου/φακέλου.\n"
+
+#: src/ftp.c:566
+#, c-format
+msgid ""
+"\n"
+"%s deleted.\n"
+"\n"
+msgstr ""
+
+#: src/ftp.c:594
+#, c-format
+msgid "-- Skipping file: `%s'\n"
+msgstr "-- Αγνόηση αρχείου: `%s'\n"
+
+#: src/ftp.c:612
+#, c-format
+msgid "--%s-- Deleting file/dir: ftp://%s:xxxxx@%s:%d/%s%s%s\n"
+msgstr ""
+
+#: src/ftp.c:656
+msgid "Skipping all files from this account...\n"
+msgstr "Αγνόηση όλων των αρχείων από αυτό το λογαριασμό...\n"
+
+#: src/ftp.c:724 src/ftp.c:768
+msgid "Unable to set transfer mode. Assuming binary\n"
+msgstr "Αδύνατος ο ορισμός λειτουργίας μεταφοράς. Θεωρείται δυαδική\n"
+
+#: src/ftp.c:748
+msgid "Skipping this file due to resume/upload/skip rules.\n"
+msgstr "Αγνόηση αρχείου λόγω κανόνων για επανάληψη/ανέβασμα/αγνόηση.\n"
+
+#: src/ftp.c:749
+#, c-format
+msgid "-- Skipping file: %s\n"
+msgstr "-- Αγνόηση αρχείου: %s\n"
+
+#: src/ftp.c:795
+#, c-format
+msgid "Send Failed (%s) "
+msgstr "Η αποστολή απέτυχε (%s) "
+
+#: src/ftp.c:797
+msgid "Delete Failed. "
+msgstr ""
+
+#: src/ftp.c:799
+msgid "Skipping this file\n"
+msgstr "Αγνόηση του αρχείου\n"
+
+#: src/ftp.c:882
+msgid "Assuming the proxy to do the task.\n"
+msgstr "Θεωρείται ότι το proxy έχει αναλάβει την εργασία.\n"
+
+#: src/ftp.c:886
+msgid "Skipping this URL.\n"
+msgstr "Αγνόηση του URL.\n"
+
+#: src/ftp.c:921
+msgid ""
+"URL: # or ? functions unimplemented. Assuming they are part of the "
+"filename.\n"
+msgstr ""
+"URL: # ή ? συναρτήσεις δεν έχουν υλοποιηθεί. Θεωρούνται ως μέρος του "
+"ονόματος που έχει το αρχείο.\n"
+
+#: src/socketlib.c:94
+msgid "client: can't open stream socket"
+msgstr "client: αδύνατο το άνοιγμα stream socket"
+
+#: src/socketlib.c:114
+msgid "server: can't open new socket"
+msgstr "server: αδύνατο το άνοιγμα νέου socket"
+
+#: src/socketlib.c:125
+msgid "server: can't bind local address\n"
+msgstr "server: απέτυχε το bind στην τοπική διεύθυνση\n"
+
+#: src/socketlib.c:163
+msgid "error accepting the incoming connection"
+msgstr "σφάλμα αποδοχής της εισερχόμενης σύνδεσης"
+
+#: src/socketlib.c:181
+msgid "TLS handshake failed\n"
+msgstr ""
+
+#: src/socketlib.c:240
+#, c-format
+msgid "Receive-Warning: read() timed out. Read '%s' so far.\n"
+msgstr ""
+"Σφάλμα λήψης: Η συνάρτηση read() ξεπέρασε τον καθορισμένο χρόνο. Ανάγνωση '%"
+"s' μέχρι στιγμής.\n"
+
+#: src/socketlib.c:245
+#, c-format
+msgid "Receive-Error: read() failed. Read '%s' so far. (errno: %s (%d))\n"
+msgstr ""
+"Σφάλμα λήψης: η συνάρτηση read() απέτυχε. Ανάγνωση '%s' μέχρι τώρα. (αριθμός "
+"σφάλματος %s (%d))\n"
+
+#: src/socketlib.c:265
+msgid "recv() timed out. No data received\n"
+msgstr ""
+"Η συνάρτηση recv() ξεπέρασε τον καθορισμένο χρόνο. Δεν έγινε λήψη δεδομένων\n"
+
+#: src/socketlib.c:430 src/socketlib.c:450 src/socketlib.c:475
+#: src/ftplib.c:349 src/ftplib.c:380 src/ftplib.c:451 src/ftplib.c:484
+#: src/ftplib.c:534 src/ftplib.c:593 src/ftplib.c:779 src/ftplib.c:917
+#: src/ftplib.c:987
+msgid "failed.\n"
+msgstr "απέτυχε.\n"
+
+#: src/socketlib.c:432
+msgid "Connection to proxy cannot be established.\n"
+msgstr "Αδύνατη η εδραίωση σύνδεσης στο proxy\n"
+
+#: src/socketlib.c:445
+#, c-format
+msgid "read() failed: %d (%d: %s)\n"
+msgstr "η read() απέτυχε: %d (%d: %s)\n"
+
+#: src/socketlib.c:452
+#, c-format
+msgid "Proxy version mismatch (%d)\n"
+msgstr "Η έκδοση proxy δεν ταιριάζει (%d)\n"
+
+#: src/socketlib.c:470
+msgid "Proxy authentication failure\n"
+msgstr ""
+
+#: src/socketlib.c:477
+#, c-format
+msgid "Proxy method mismatch (%d)\n"
+msgstr ""
+
+#: src/socketlib.c:496
+#, c-format
+msgid "Proxy discarded listen-request. Error-Code: %d\n"
+msgstr "Το proxy απέρριψε το αίτημα ακρόασης. Κωδικός σφάλματος: %d\n"
+
+#: src/socketlib.c:497
+msgid "Disabling listen-tries for proxy\n"
+msgstr ""
+
+#: src/socketlib.c:503
+#, c-format
+msgid "Proxy is listening on %s:%d for incoming connections\n"
+msgstr "Ακρόαση του proxy για εισερχόμενες συνδέσεις στην %s:%d\n"
+
+#: src/socketlib.c:516
+#, c-format
+msgid "Proxy encountered an error while accepting. Error-Code: %d\n"
+msgstr ""
+
+#: src/socketlib.c:534
+#, c-format
+msgid "Using SOCKS5-Proxy %s:%d... "
+msgstr "Χρήση SOCKS5-Proxy %s:%d... "
+
+#: src/socketlib.c:566
+msgid "Proxy connection established.\n"
+msgstr "Proxy σύνδεση εδραιώθηκε.\n"
+
+#: src/socketlib.c:569
+#, c-format
+msgid "Connection through proxy failed. Error-code: %d\n"
+msgstr "Σύνδεση μέσω proxy απέτυχε. Κωδικός σφάλματος: %d\n"
+
+#: src/socketlib.c:624
+#, c-format
+msgid ""
+"Connection could not be established.\n"
+"Proxy states '%s'"
+msgstr ""
+"Αδύνατη η εδραίωση σύνδεσης.\n"
+"Κατάσταση proxy '%s'"
+
+#: src/ftplib.c:94
+msgid "Receive-Error: Connection broke down.\n"
+msgstr "Σφάλμα λήψης: Διακοπή σύνδεσης.\n"
+
+#: src/ftplib.c:105
+#, c-format
+msgid "Receive-Error: Invalid FTP-answer (%d bytes): %s\n"
+msgstr "Σφάλμα λήψης: Άκυρη FTP-απάντηση (%d bytes): %s\n"
+
+#: src/ftplib.c:107
+msgid "Reconnecting to be sure, nothing went wrong\n"
+msgstr "Επανάληψη σύνδεσης για σιγουριά, δε συνέβη κανένα σφάλμα\n"
+
+#: src/ftplib.c:191
+#, c-format
+msgid "Connecting to %s:%d... "
+msgstr "Σύνδεση σε %s:%d... "
+
+#: src/ftplib.c:201
+msgid "failed!\n"
+msgstr "απέτυχε!\n"
+
+#: src/ftplib.c:204
+msgid "connected"
+msgstr "σε σύνδεση"
+
+#: src/ftplib.c:216
+#, c-format
+msgid "Connection failed (%s)\n"
+msgstr "Σύνδεση απέτυχε (%s)\n"
+
+#: src/ftplib.c:237
+msgid "TLS encryption is explicitly required, but could not be established.\n"
+msgstr "Απαιτείται ρητά κρυπτογράφηση TLS, αλλά στάθηκε αδύνατη.\n"
+
+#: src/ftplib.c:254
+#, c-format
+msgid "Logging in as %s ... "
+msgstr "Αυθεντικοποίηση ως %s ... "
+
+#: src/ftplib.c:271
+msgid "remote server requires a password, but none set. Using an empty one.\n"
+msgstr ""
+"Ο απομακρυσμένος server απαιτεί κωδικό, αλλά δεν έχει οριστεί κανείς. Χρήση "
+"κενού κωδικού.\n"
+
+#: src/ftplib.c:280
+msgid "Server requires account login, which is not supported.\n"
+msgstr "O server απαιτεί είσοδο στο λογαριασμό, η οποία δεν υποστηρίζεται.\n"
+
+#: src/ftplib.c:286
+#, c-format
+msgid "Login-Sequence failed (%s)\n"
+msgstr "Η ακολουθία σύνδεσης απέτυχε (%s)\n"
+
+#: src/ftplib.c:290
+msgid "Logged in!\n"
+msgstr "Επιτυχής σύνδεση!\n"
+
+#: src/ftplib.c:307
+#, c-format
+msgid "failed (%s).\n"
+msgstr "απέτυχε (%s).\n"
+
+#: src/ftplib.c:308
+msgid "encrypted!"
+msgstr "κρυπτογραφημένο!"
+
+#: src/ftplib.c:315
+msgid "Setting data protection level to private ... "
+msgstr "Το επίπεδο προστασίας δεδομένων ορίστηκε σε προσωπικό ... "
+
+#: src/ftplib.c:331 src/ftplib.c:383 src/ftplib.c:530 src/ftplib.c:596
+#: src/ftplib.c:726 src/ftplib.c:771 src/ftplib.c:805 src/ftplib.c:828
+#: src/ftplib.c:920 src/ftplib.c:962 src/ftplib.c:990
+msgid "done.\n"
+msgstr "ολοκληρώθηκε.\n"
+
+#: src/ftplib.c:366
+#, c-format
+msgid "done (%s).\n"
+msgstr "ολοκληρώθηκε (%s).\n"
+
+#: src/ftplib.c:385
+#, c-format
+msgid "Connection cancelled (%s)\n"
+msgstr "Η σύνδεση ακυρώθηκε (%s)\n"
+
+#: src/ftplib.c:446
+#, c-format
+msgid "done (modified on %d.%d.%d at %d:%d:%d)\n"
+msgstr "ολοκληρώθηκε (αλλαγή την %d.%d.%d στις %d:%d:%d)\n"
+
+#: src/ftplib.c:480
+#, c-format
+msgid "done (%s bytes)\n"
+msgstr "ολοκληρώθηκε  (%s bytes)\n"
+
+#: src/ftplib.c:551 src/ftplib.c:568 src/ftplib.c:621
+#, c-format
+msgid " failed (%s).\n"
+msgstr " απέτυχε (%s).\n"
+
+#: src/ftplib.c:624
+#, fuzzy
+msgid " done.\n"
+msgstr "ολοκληρώθηκε.\n"
+
+#: src/ftplib.c:626
+msgid "\n"
+msgstr ""
+
+#: src/ftplib.c:649
+#, c-format
+msgid "Cannot initiate data-connection (%s)\n"
+msgstr ""
+
+#: src/ftplib.c:694
+#, c-format
+msgid "listing directory failed (%s)\n"
+msgstr "η δημιουργία λίστας φακέλου απέτυχε (%s)\n"
+
+#: src/ftplib.c:723
+msgid ""
+"failed.\n"
+"Server seems not to support resuming. Restarting at 0\n"
+msgstr ""
+"απέτυχε.\n"
+"Ο εξυπηρετητής δεν υποστηρίζει επαναλήψεις. Επανέναρξη από το 0\n"
+
+#: src/ftplib.c:743
+msgid "[not done, but should be allright]\n"
+msgstr "[δεν ολοκληρώθηκε, αλλά πρέπει να έγιναν όλα σωστά]\n"
+
+#: src/ftplib.c:775
+#, c-format
+msgid "failed (%s). (disabling resuming)\n"
+msgstr "απέτυχε (%s). (απενεργοποίηση επανάληψης)\n"
+
+#: src/ftplib.c:782
+msgid "Trying to switch PORT/PASV mode\n"
+msgstr "Προσπάθεια εναλλαγής PORT/PASV λειτουργίας\n"
+
+#: src/ftplib.c:786 src/ftplib.c:808 src/ftplib.c:831
+#, c-format
+msgid "failed (%d %s). (skipping)\n"
+msgstr "αποτυχία (%d %s). (αγνόηση)\n"
+
+#: src/ftplib.c:800 src/ftplib.c:822 src/ftplib.c:825
+#, fuzzy, c-format
+msgid "failed (%s)\n"
+msgstr "απέτυχε (%s).\n"
+
+#: src/ftplib.c:932
+msgid "connection failed.\n"
+msgstr "Η σύνδεση απέτυχε.\n"
+
+#: src/ftplib.c:950
+msgid "Trying to listen on proxy server... "
+msgstr "Προσπάθεια ακρόασης στον εξυπηρετητή proxy... "
+
+#: src/ftplib.c:953
+msgid "failed. Falling back to listen locally\n"
+msgstr "απέτυχε. Επιστροφή σε τοπική ακρόαση για συνδέσεις\n"
+
+#: src/ftplib.c:956
+msgid ""
+"Unless FXP is enabled remotely, your control-connection should be from the "
+"same IP-address, as your PORT bind-request. So you should consider PASV-mode "
+"or reconnect without a proxy.\n"
+msgstr ""
+
+#: src/ftplib.c:966
+msgid "Using port-mode. Unable to use the http-proxy for this connection\n"
+msgstr ""
+"Χρήση port-λειτουργίας. Αδύνατη η χρήση του http-proxy για αυτή τη σύνδεση\n"
+
+#: src/ftplib.c:978
+msgid "Cannot determine local IP address"
+msgstr "Αδύνατο να καθοριστεί η τοπική διεύθυνση IP"
+
+#: src/utils.c:247
+#, c-format
+msgid "parse-error in escaped character: %c is not a hexadecimal character\n"
+msgstr ""
+"σφάλμα ανάλυσης σε χαρακτήρα διαφυγής: %c δεν είναι δεκαεξαδικός χαρακτήρας\n"
+
+#: src/utils.c:271
+#, c-format
+msgid "Waiting %d seconds... "
+msgstr "Αναμονή %d δευτερολέπτων "
+
+#: src/utils.c:285
+#, c-format
+msgid "No http-header found. Assuming socks-proxy $host:$port for `%s'\n"
+msgstr "Δε βρέθηκε http-header. Θεωρείται socks-proxy $host:$port για `%s'\n"
+
+#: src/utils.c:312
+#, c-format
+msgid "No port specified. Assuming default port %d.\n"
+msgstr "Δεν έχει διευκρινιστεί θύρα. Θεωρείται προεπιλεγμένη θύρα %d.\n"
+
+#: src/queue.c:130
+msgid "Error: Please specify a url first.\n"
+msgstr ""
+
+#: src/queue.c:335
+#, c-format
+msgid "Error encountered but ignored during stat of `%s'.\n"
+msgstr "Υπήρξε σφάλμα αλλά αγνοήθηκε, στην εντολή stat του `%s'.\n"
+
+#: src/queue.c:342
+#, c-format
+msgid "Error encountered but ignored during opendir of `%s'.\n"
+msgstr "Υπήρξε σφάλμα αλλά αγνοήθηκε, στην εντολή opendir του `%s'.\n"
+
+#: src/queue.c:383
+msgid "Seems as though there are two equivalent entries to upload.\n"
+msgstr "Φαίνεται πως υπάρχουν δύο ίδιες καταχωρήσεις που ανεβαίνουν.\n"
+
+#: src/queue.c:439
+#, c-format
+msgid "the url `%s' could not be parsed\n"
+msgstr "Αδύνατη η ανάλυση του url `%s'\n"
+
+#: src/queue.c:460
+msgid ""
+"Neither a remote location nor a local filename has been specified. Assuming "
+"you want to upload the current working directory to the remote server.\n"
+msgstr ""
+"Δεν έχει οριστεί ούτε η απομακρυσμένη τοποθεσία ούτε το τοπικό όνομα "
+"αρχείου. Θεωρείται ότι θέλετε να ανεβάσετε τον τρέχοντα φάλελο εργασίας στο "
+"server.\n"
+
+#: src/queue.c:496
+msgid ""
+"No local file specified and no file found from URL.\n"
+"Assuming the current working directory is to be uploaded to the remote "
+"server.\n"
+msgstr ""
+"Δεν έχει οριστεί τοπικό αρχείο, ούτε βρέθηκε στο URL.\n"
+"Θεωρείται ότι θέλετε να ανεβάσετε τον τρέχοντα φάλελο εργασίας στο server.\n"
+
+#: src/queue.c:531
+#, c-format
+msgid ""
+"File `%s' does not exist. Assuming you supply its input using the -I flag.\n"
+msgstr ""
+
+#: src/queue.c:541
+#, c-format
+msgid "File `%s' does not exist. Don't know what to do about this URL.\n"
+msgstr "Το αρχείο `%s' δε βρέθηκε. Δεν γνωρίζω τι να κάνω με το URL.\n"
+
+#: src/progress.c:337
+#, c-format
+msgid "Length: %s"
+msgstr "Μήκος: %s"
+
+#: src/progress.c:341
+#, c-format
+msgid " [%s to go]\n"
+msgstr " [%s ακόμα]\n"
+
+#: src/progress.c:348
+msgid ""
+"%* [ skipped %dK ]\n"
+"%* %dK "
+msgstr ""
+"%* [ αγνόηση %dK ]\n"
+"%* %dK "
+
+#: src/ftp-ls.c:957
+msgid "Unsupported listing type, trying Unix listing parser.\n"
+msgstr ""
+"Μη υποστηριζόμενος τύπος καταλόγου, δοκιμάζω να τον διαβάσω σαν Unix "
+"κατάλογο.\n"
+
+#: src/ftp-ls.c:1003 src/ftp-ls.c:1005
+#, c-format
+msgid "Index of /%s on %s:%d"
+msgstr "Κατάλογος του /%s στο %s:%d"
+
+#: src/ftp-ls.c:1028
+#, c-format
+msgid "time unknown       "
+msgstr "ώρα άγνωστη       "
+
+#: src/ftp-ls.c:1032
+#, c-format
+msgid "File        "
+msgstr "Αρχείο        "
+
+#: src/ftp-ls.c:1035
+#, c-format
+msgid "Directory   "
+msgstr "Κατάλογος   "
+
+#: src/ftp-ls.c:1038
+#, c-format
+msgid "Link        "
+msgstr "Σύνδεση        "
+
+#: src/ftp-ls.c:1041
+#, c-format
+msgid "Not sure    "
+msgstr "Όχι απόλυτα σίγουρος    "
+
+#: src/ftp-ls.c:1059
+#, c-format
+msgid " (%s bytes)"
+msgstr " (%s byte)"

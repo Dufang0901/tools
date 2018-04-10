@@ -1,0 +1,47 @@
+Date:2017-02-05 08:22:34.141 <  INFO>,[Center]--CenterProcess: log initialization finished.
+Date:2017-02-05 08:22:34.371 <  INFO>,[Center]--#########################################
+Date:2017-02-05 08:22:34.372 <  INFO>,[Center]--###########  Bic Run  Ver 0.1.3########
+Date:2017-02-05 08:22:34.373 <  INFO>,[Center]--#########################################
+Date:2017-02-05 08:22:34.373 <  INFO>,[Center]--############ center process id is 343
+Date:2017-02-05 08:22:34.475 <  INFO>,[Center]--CenterProcess: center      process message queue id is 294921
+Date:2017-02-05 08:22:34.476 <  INFO>,[Center]--CenterProcess: location    process message queue id is 98307
+Date:2017-02-05 08:22:34.477 <  INFO>,[Center]--CenterProcess: server      process message queue id is 65538
+Date:2017-02-05 08:22:34.478 <  INFO>,[Center]--CenterProcess: station     process message queue id is 163845
+Date:2017-02-05 08:22:34.483 <  INFO>,[Center]--CenterProcess: online      process message queue id is 0
+Date:2017-02-05 08:22:34.488 <  INFO>,[Center]--CenterProcess: hmi         process message queue id is 262152
+Date:2017-02-05 08:22:34.498 <  INFO>,[Center]--CenterProcess: bleApp      process message queue id is 131076
+Date:2017-02-05 08:22:34.499 <  INFO>,[Center]--CenterProcess: peripherals process message queue id is 32769
+Date:2017-02-05 08:22:34.499 <  INFO>,[Center]--CenterProcess: lcdShow     process message queue id is 327690
+Date:2017-02-05 08:22:34.500 <  INFO>,[Center]--CenterProcess: voice       process message queue id is 196614
+Date:2017-02-05 08:22:34.501 <  INFO>,[Center]--CenterProcess: oam         process message queue id is 229383
+Date:2017-02-05 08:22:34.501 <  INFO>,[Center]--CenterProcess: routeplay         process message queue id is 360459
+Date:2017-02-05 08:22:34.521 <  INFO>,[Center]--CenterProcess: center timer created,timerFd = 5.
+Date:2017-02-05 08:22:34.522 <  INFO>,[Center]--CenterProcess: oam shared memory created.
+Date:2017-02-05 08:22:34.523 <  INFO>,[Center]--CenterProcess: shared memory for location data created,address is 0x76f65000.
+Date:2017-02-05 08:22:34.524 <  INFO>,[Center]--CenterProcess: center process resource initialization begin.
+Date:2017-02-05 08:22:34.573 <  INFO>,[Center]--CenterResInit: Bic info init finished.
+Date:2017-02-05 08:22:34.590 <  INFO>,[Center]--CenterResInit: Bic driver info init finished.
+Date:2017-02-05 08:22:34.598 <  INFO>,[Center]--CenterResInit:There are 1 routes in bic.
+Date:2017-02-05 08:22:34.601 <  INFO>,[Center]--CenterResInit:There are 1 vaild routes in bic.
+Date:2017-02-05 08:22:34.613 <  INFO>,[Center]--CenterResInit: bic operation info init finished.
+Date:2017-02-05 08:22:34.617 <  INFO>,[Center]--############## bus operation info ################
+Date:2017-02-05 08:22:34.621 <  INFO>,[Center]--Driver work state:16
+Date:2017-02-05 08:22:34.626 <  INFO>,[Center]--Driver work login time:2017-0131 06:06:55
+Date:2017-02-05 08:22:34.629 <  INFO>,[Center]--Driver work logout time:2010-0101 00:00:00
+Date:2017-02-05 08:22:34.635 <  INFO>,[Center]--Route operation state:1
+Date:2017-02-05 08:22:34.640 <  INFO>,[Center]--Driver confirm time:2017-0204 17:12:56
+Date:2017-02-05 08:22:34.644 <  INFO>,[Center]--Driver over time:2010-0101 00:00:00
+Date:2017-02-05 08:22:34.648 <  INFO>,[Center]--Driver staff id:787877
+Date:2017-02-05 08:22:34.653 <  INFO>,[Center]--Driver name:
+Date:2017-02-05 08:22:34.656 <  INFO>,[Center]--Route coding:05830
+Date:2017-02-05 08:22:34.660 <  INFO>,[Center]--Route name:583
+Date:2017-02-05 08:22:34.665 <  INFO>,[Center]--Route service coding:00
+Date:2017-02-05 08:22:34.666 <  INFO>,[Center]--Route service name:
+Date:2017-02-05 08:22:34.677 <  INFO>,[Center]--Route service destination:员村一横路总站
+Date:2017-02-05 08:22:34.679 <  INFO>,[Center]--Route trips num:76
+Date:2017-02-05 08:22:34.680 <  INFO>,[Center]--Route trips coding:947358960B98
+Date:2017-02-05 08:22:34.682 <  INFO>,[Center]--Route pervious station coding:05830110
+Date:2017-02-05 08:22:34.685 <  INFO>,[Center]--Route pervious station name:聚德西路口
+Date:2017-02-05 08:22:34.687 <  INFO>,[Center]--Route next station coding:05830111
+Date:2017-02-05 08:22:34.689 <  INFO>,[Center]--Route next station name:龙潭村
+Date:2017-02-05 08:22:34.691 <  INFO>,[Center]--CenterResInit: automatical route operation(05830_00) start.

@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+	char a[16]="1111";
+	char b[24];
+
+	printf("addr of ip is %p\n",ip);
+	printf("addr of ccidBuf is %p\n",ccidBuf);
+
+ 
+    return 0;
+}

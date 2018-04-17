@@ -1,0 +1,175 @@
+Date:2016-09-24 08:10:04.018 <  INFO>,[Online]--################# online process id is 2724.
+Date:2016-09-24 08:10:04.121 <  INFO>,[Online]--Ol U7500:Runstat change to 0.
+Date:2016-09-24 08:10:04.121 <  INFO>,[Online]--Ol U7500:Init.
+Date:2016-09-24 08:10:05.121 <  INFO>,[Online]--OnlineProcess Loop...
+Date:2016-09-24 08:10:06.121 <  INFO>,[Online]--Ol U7500:Start.
+Date:2016-09-24 08:10:24.429 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 1.
+Date:2016-09-24 08:10:24.455 <  INFO>,[Online]--Ol U7500:Loop Sig power is -81,ber is 75, level is 4.
+Date:2016-09-24 08:10:24.485 <  INFO>,[Online]--Ol U7500:Runstat change to 1.
+Date:2016-09-24 08:10:31.309 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-24 08:10:31.310 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-24 08:27:04.579 <  INFO>,[Online]--Ol U7500:Loop Sig power is 89,ber is 255, level is 3.
+Date:2016-09-24 08:36:19.901 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-24 08:36:58.911 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-24 08:37:01.932 <  INFO>,[Online]--Ol U7500:Loop Sig power is 79,ber is 255, level is 4.
+Date:2016-09-24 08:37:19.968 <  INFO>,[Online]--Ol U7500:Loop Sig power is 87,ber is 255, level is 3.
+Date:2016-09-24 08:37:28.929 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 08:37:37.931 <  INFO>,[Online]--Ol U7500:Loop Sig power is 74,ber is 255, level is 5.
+Date:2016-09-24 08:37:55.943 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-24 08:39:25.986 <  INFO>,[Online]--Ol U7500:Loop Sig power is 69,ber is 255, level is 5.
+Date:2016-09-24 08:41:02.037 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 08:41:05.036 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 08:42:26.083 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-24 08:43:02.088 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 08:44:11.116 <  INFO>,[Online]--Ol U7500:Loop Sig power is 81,ber is 255, level is 4.
+Date:2016-09-24 08:44:41.182 <  INFO>,[Online]--Ol U7500:Loop Sig power is 68,ber is 255, level is 5.
+Date:2016-09-24 08:50:29.274 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-24 08:50:32.282 <  INFO>,[Online]--Ol U7500:Loop Sig power is 62,ber is 255, level is 5.
+Date:2016-09-24 08:54:29.380 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 08:55:17.401 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-24 08:55:53.406 <  INFO>,[Online]--Ol U7500:Loop Sig power is 93,ber is 255, level is 2.
+Date:2016-09-24 08:55:56.410 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-24 08:56:20.414 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 08:56:41.427 <  INFO>,[Online]--Ol U7500:Loop Sig power is 68,ber is 255, level is 5.
+Date:2016-09-24 08:56:59.442 <  INFO>,[Online]--Ol U7500:Loop Sig power is 76,ber is 255, level is 4.
+Date:2016-09-24 08:57:02.449 <  INFO>,[Online]--Ol U7500:Loop Sig power is 63,ber is 255, level is 5.
+Date:2016-09-24 08:57:32.452 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 08:57:47.456 <  INFO>,[Online]--Ol U7500:Loop Sig power is 74,ber is 255, level is 5.
+Date:2016-09-24 08:58:32.467 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-24 08:58:47.470 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 08:58:59.478 <  INFO>,[Online]--Ol U7500:Loop Sig power is 66,ber is 255, level is 5.
+Date:2016-09-24 08:59:11.479 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-24 08:59:41.492 <  INFO>,[Online]--Ol U7500:Loop Sig power is 71,ber is 255, level is 5.
+Date:2016-09-24 08:59:47.491 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-24 08:59:56.507 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-24 09:00:29.506 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-24 09:00:41.504 <  INFO>,[Online]--Ol U7500:Loop Sig power is 89,ber is 255, level is 3.
+Date:2016-09-24 09:00:44.504 <  INFO>,[Online]--Ol U7500:Loop Sig power is 95,ber is 255, level is 2.
+Date:2016-09-24 09:00:59.523 <  INFO>,[Online]--Ol U7500:Loop Sig power is 88,ber is 255, level is 3.
+Date:2016-09-24 09:01:02.523 <  INFO>,[Online]--Ol U7500:Loop Sig power is 97,ber is 255, level is 2.
+Date:2016-09-24 09:01:26.519 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-24 09:01:32.524 <  INFO>,[Online]--Ol U7500:Loop Sig power is 93,ber is 255, level is 2.
+Date:2016-09-24 09:02:20.538 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-24 09:02:32.563 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-24 09:02:44.548 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-24 09:02:47.550 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-24 09:03:29.568 <  INFO>,[Online]--Ol U7500:Loop Sig power is 90,ber is 255, level is 3.
+Date:2016-09-24 09:03:32.570 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 09:03:47.582 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 09:05:41.609 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:05:44.610 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-24 09:05:59.607 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:06:02.627 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 09:06:32.620 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:06:35.622 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 09:06:47.623 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:07:05.626 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-24 09:07:29.631 <  INFO>,[Online]--Ol U7500:Loop Sig power is 74,ber is 255, level is 5.
+Date:2016-09-24 09:07:44.634 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-24 09:09:05.666 <  INFO>,[Online]--Ol U7500:Loop Sig power is 96,ber is 255, level is 2.
+Date:2016-09-24 09:09:36.291 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-24 09:09:56.450 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-24 09:10:02.713 <  INFO>,[Online]--Ol U7500:Loop Sig power is 102,ber is 255, level is 1.
+Date:2016-09-24 09:10:23.729 <  INFO>,[Online]--Ol U7500:Loop Sig power is 96,ber is 255, level is 2.
+Date:2016-09-24 09:10:26.291 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-24 09:10:32.732 <  INFO>,[Online]--Ol U7500:Loop Sig power is 90,ber is 255, level is 3.
+Date:2016-09-24 09:10:35.728 <  INFO>,[Online]--Ol U7500:Loop Sig power is 96,ber is 255, level is 2.
+Date:2016-09-24 09:10:46.488 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-24 09:11:14.757 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 09:11:41.748 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-24 09:11:50.750 <  INFO>,[Online]--Ol U7500:Loop Sig power is 94,ber is 255, level is 2.
+Date:2016-09-24 09:12:17.759 <  INFO>,[Online]--Ol U7500:Loop Sig power is 88,ber is 255, level is 3.
+Date:2016-09-24 09:12:35.762 <  INFO>,[Online]--Ol U7500:Loop Sig power is 81,ber is 255, level is 4.
+Date:2016-09-24 09:12:53.770 <  INFO>,[Online]--Ol U7500:Loop Sig power is 89,ber is 255, level is 3.
+Date:2016-09-24 09:13:35.778 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:13:53.784 <  INFO>,[Online]--Ol U7500:Loop Sig power is 69,ber is 255, level is 5.
+Date:2016-09-24 09:14:17.789 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-24 09:14:23.844 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-24 09:14:59.810 <  INFO>,[Online]--Ol U7500:Loop Sig power is 79,ber is 255, level is 4.
+Date:2016-09-24 09:15:20.823 <  INFO>,[Online]--Ol U7500:Loop Sig power is 72,ber is 255, level is 5.
+Date:2016-09-24 09:15:38.830 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 09:16:17.840 <  INFO>,[Online]--Ol U7500:Loop Sig power is 68,ber is 255, level is 5.
+Date:2016-09-24 09:17:08.868 <  INFO>,[Online]--Ol U7500:Loop Sig power is 76,ber is 255, level is 4.
+Date:2016-09-24 09:17:56.870 <  INFO>,[Online]--Ol U7500:Loop Sig power is 67,ber is 255, level is 5.
+Date:2016-09-24 09:18:14.885 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:18:44.887 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 09:21:35.947 <  INFO>,[Online]--Ol U7500:Loop Sig power is 76,ber is 255, level is 4.
+Date:2016-09-24 09:21:56.963 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 09:30:57.154 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-24 09:31:15.159 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-24 09:31:54.176 <  INFO>,[Online]--Ol U7500:Loop Sig power is 76,ber is 255, level is 4.
+Date:2016-09-24 09:32:06.191 <  INFO>,[Online]--Ol U7500:Loop Sig power is 87,ber is 255, level is 3.
+Date:2016-09-24 09:32:51.192 <  INFO>,[Online]--Ol U7500:Loop Sig power is 81,ber is 255, level is 4.
+Date:2016-09-24 09:33:45.298 <  INFO>,[Online]--Ol U7500:Loop Sig power is 74,ber is 255, level is 5.
+Date:2016-09-24 09:33:57.238 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-24 09:34:00.232 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-24 09:34:24.263 <  INFO>,[Online]--Ol U7500:Loop Sig power is 93,ber is 255, level is 2.
+Date:2016-09-24 09:35:30.346 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-24 09:36:00.294 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-24 09:36:12.314 <  INFO>,[Online]--Ol U7500:Loop Sig power is 100,ber is 255, level is 1.
+Date:2016-09-24 09:36:24.308 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-24 09:37:03.291 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-24 09:37:18.359 <  INFO>,[Online]--Ol U7500:Loop Sig power is 90,ber is 255, level is 3.
+Date:2016-09-24 09:37:23.395 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-24 09:37:30.362 <  INFO>,[Online]--Ol U7500:Loop Sig power is 99,ber is 255, level is 1.
+Date:2016-09-24 09:37:45.381 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-24 09:37:53.291 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-24 09:38:13.401 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-24 09:38:45.404 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-24 09:39:09.422 <  INFO>,[Online]--Ol U7500:Loop Sig power is 72,ber is 255, level is 5.
+Date:2016-09-24 09:39:15.422 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 09:39:21.423 <  INFO>,[Online]--Ol U7500:Loop Sig power is 74,ber is 255, level is 5.
+Date:2016-09-24 09:43:42.551 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 09:43:48.552 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-24 09:44:36.584 <  INFO>,[Online]--Ol U7500:Loop Sig power is 94,ber is 255, level is 2.
+Date:2016-09-24 09:45:18.580 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-24 09:45:36.583 <  INFO>,[Online]--Ol U7500:Loop Sig power is 94,ber is 255, level is 2.
+Date:2016-09-24 09:45:51.596 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-24 09:46:27.663 <  INFO>,[Online]--Ol U7500:Loop Sig power is 76,ber is 255, level is 4.
+Date:2016-09-24 09:46:30.639 <  INFO>,[Online]--Ol U7500:Loop Sig power is 87,ber is 255, level is 3.
+Date:2016-09-24 09:46:39.631 <  INFO>,[Online]--Ol U7500:Loop Sig power is 79,ber is 255, level is 4.
+Date:2016-09-24 09:46:45.633 <  INFO>,[Online]--Ol U7500:Loop Sig power is 71,ber is 255, level is 5.
+Date:2016-09-24 09:46:54.635 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:47:03.650 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-24 09:47:30.661 <  INFO>,[Online]--Ol U7500:Loop Sig power is 71,ber is 255, level is 5.
+Date:2016-09-24 09:47:33.718 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:47:42.667 <  INFO>,[Online]--Ol U7500:Loop Sig power is 71,ber is 255, level is 5.
+Date:2016-09-24 09:47:48.673 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-24 09:48:06.682 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 09:48:15.687 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 09:48:30.690 <  INFO>,[Online]--Ol U7500:Loop Sig power is 76,ber is 255, level is 4.
+Date:2016-09-24 09:48:33.756 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-24 09:48:57.705 <  INFO>,[Online]--Ol U7500:Loop Sig power is 71,ber is 255, level is 5.
+Date:2016-09-24 09:49:21.710 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-24 09:49:51.721 <  INFO>,[Online]--Ol U7500:Loop Sig power is 84,ber is 255, level is 3.
+Date:2016-09-24 09:50:00.725 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-24 09:50:06.726 <  INFO>,[Online]--Ol U7500:Loop Sig power is 64,ber is 255, level is 5.
+Date:2016-09-24 09:50:36.742 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-24 09:51:00.789 <  INFO>,[Online]--Ol U7500:Loop Sig power is 67,ber is 255, level is 5.
+Date:2016-09-24 09:51:15.763 <  INFO>,[Online]--Ol U7500:Loop Sig power is 84,ber is 255, level is 3.
+Date:2016-09-24 09:51:33.790 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-24 09:51:57.787 <  INFO>,[Online]--Ol U7500:Loop Sig power is 67,ber is 255, level is 5.
+Date:2016-09-24 09:56:09.896 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 09:56:24.902 <  INFO>,[Online]--Ol U7500:Loop Sig power is 69,ber is 255, level is 5.
+Date:2016-09-24 09:58:12.944 <  INFO>,[Online]--Ol U7500:Loop Sig power is 79,ber is 255, level is 4.
+Date:2016-09-24 09:58:30.948 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-24 09:58:33.972 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-24 09:58:39.953 <  INFO>,[Online]--Ol U7500:Loop Sig power is 68,ber is 255, level is 5.
+Date:2016-09-24 09:58:45.952 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-24 09:59:06.958 <  INFO>,[Online]--Ol U7500:Loop Sig power is 68,ber is 255, level is 5.
+Date:2016-09-24 10:12:16.297 <  INFO>,[Online]--Ol U7500:Loop Sig power is 76,ber is 255, level is 4.
+Date:2016-09-24 10:12:22.299 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 10:22:25.607 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-24 10:22:37.614 <  INFO>,[Online]--Ol U7500:Loop Sig power is 68,ber is 255, level is 5.
+Date:2016-09-24 10:26:46.780 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-24 10:26:58.786 <  INFO>,[Online]--Ol U7500:Loop Sig power is 69,ber is 255, level is 5.
+Date:2016-09-24 10:29:13.828 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-24 10:30:19.849 <  INFO>,[Online]--Ol U7500:Loop Sig power is 90,ber is 255, level is 3.
+Date:2016-09-24 10:30:40.847 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-24 10:30:43.846 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.
+Date:2016-09-24 10:30:52.848 <  INFO>,[Online]--Ol U7500:Loop Sig power is 76,ber is 255, level is 4.
+Date:2016-09-24 10:31:04.852 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-24 10:31:37.860 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 10:32:01.865 <  INFO>,[Online]--Ol U7500:Loop Sig power is 71,ber is 255, level is 5.
+Date:2016-09-24 10:33:46.915 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-24 10:34:04.923 <  INFO>,[Online]--Ol U7500:Loop Sig power is 70,ber is 255, level is 5.

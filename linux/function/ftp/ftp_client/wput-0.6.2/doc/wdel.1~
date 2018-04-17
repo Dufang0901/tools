@@ -1,0 +1,205 @@
+.TH "wdel" "1" "0.6" "Hagen Fritsch, Jan Larres" "Internet Applications - FTP"
+.SH "NAME"
+wdel \- A wget\-like program for deleting files on ftp servers
+.SH "SYNOPSIS"
+wdel [\fIoption\fR]... [\fI\s-1URL\s0\fR [\fI\s-1file\s0\fR]...]...
+.SH "DESCRIPTION"
+Wdel is a free utility that is able to delete files on an ftp server.
+.PP
+Wdel is non\-interactive and background-capable. It can delete files or whole
+directories and is meant to be a robust client even for unstable connections
+and will therefore retry to delete a file, if the connection broke.
+.PP
+Wdel supports connections through proxies, allowing you to use it in an
+environment that can access the internet only via a proxy or to provide
+anonymity by hiding your ip\-address to the server.
+For SOCKSv5\-proxies Wdel supports also listening mode, allowing you to use
+port-mode ftp through a proxy (useful if the remote ftp is behind a firewall
+or a gateway).
+.SH "URL\-Input\-Handling"
+URLs are recognized by the ftp://\-prefix.
+.PP
+Wdel first reads the URLs from the command line, and associates every file
+with the last URL until a new URL is found (note that this is different
+from wput). Then, it reads the \-\-input\-file (if any) and parses the URLs
+in the same way.  So you can specify e.g. one URL and read all filenames
+from a file.
+.PP
+If there are no explicit filenames given for a singe URL, then the last
+part of the URL is taken to be the file/directory to be deleted. If there
+are filenames, then the last part of the URL is considered to be the
+directory where these files reside in. Slashes at the end of the URL or the
+filename (in case it is a directory to be deleted) are ignored.
+.SH "OPTIONS"
+.Sh "Basic Startup Options"
+.IP "\fB\-V\fR" 4
+.IX Item "-V"
+.PD 0
+.IP "\fB\-\-version\fR" 4
+.IX Item "--version"
+.PD
+Display the version of wdel.
+.IP "\fB\-h\fR" 4
+.IX Item "-h"
+.PD 0
+.IP "\fB\-\-help\fR" 4
+.IX Item "--help"
+.PD
+Print a help screen, with a short description of wdel's command-line options.
+.IP "\fB\-b\fR" 4
+.IX Item "-b"
+.PD 0
+.IP "\fB\-\-background\fR" 4
+.IX Item "--background"
+.PD
+Go to background immediately after startup.  If no output file is given,
+wdel will redirect its output to "./wdel-log"
+.Sh "Logging and Input File Options"
+.IX Subsection "Logging and Input File Options"
+.IP "\fB\-o\fR \fIlogfile\fR" 4
+.IX Item "-o logfile"
+.PD 0
+.IP "\fB\-\-output\-file=\fR\fIlogfile\fR" 4
+.IX Item "--output-file=logfile"
+.PD
+Log all messages to \fIlogfile\fR.
+.IP "\fB\-a\fR \fIlogfile\fR" 4
+.IX Item "-a logfile"
+.PD 0
+.IP "\fB\-\-append\-output=\fR\fIlogfile\fR" 4
+.IX Item "--append-output=logfile"
+.PD
+Append all logged messages to \fIlogfile\fR.
+.IP "\fB\-q\fR" 4
+.IX Item "-q"
+.PD 0
+.IP "\fB\-\-quiet\fR" 4
+.IX Item "--quiet"
+.PD
+Turn off Wdel's output.
+.IP "\fB\-v\fR" 4
+.IX Item "-v"
+.PD 0
+.IP "\fB\-\-verbose\fR" 4
+.IX Item "--verbose"
+.PD
+Turn on verbose output. This gives some more information about what Wdel
+does. If you specify this flag twice, you get debug output.
+.IP "\fB\-nv\fR" 4
+.IX Item "-nv"
+.PD 0
+.IP "\fB\-\-less\-verbose\fR" 4
+.IX Item "--less-verbose"
+.PD
+Be less verbose. That means reducing Wdel's output to a minimun. Specifying
+this flag more often is equal to the --quiet flag.
+.IP "\fB\-i\fR \fIfile\fR" 4
+.IX Item "-i file"
+.PD 0
+.IP "\fB\-\-input\-file=\fR\fIfile\fR" 4
+.IX Item "--input-file=file"
+.PD
+Reads URLs and filenames from \fIfile\fR. These will be added to the queue
+just like if they were supplied via the command line.  See also the
+URL-Input-Handling section.
+.PD
+If \fIfile\fR is \-, the URLs will be read from stdin.
+.IP "\fB\-s\fR" 4
+.IX Item "-s"
+.PD 0
+.IP "\fB\-\-sort\fR" 4
+.IX Item "--sort"
+.PD
+If sorting is enabled Wdel first reads all URLs from any input-devices available
+and will sort them before deleting each file.
+.PD
+The sorting order is: ip/hostname, port, username, password, directory, filename.
+Sorting requires a bit more memory since all data needs to be held there.
+.IP "\fB\-\-basename=\fR\fIpath\fR" 4
+.IX Item "--basename=path"
+.PD
+This option causes Wdel to snip \fIpath\fR from all filenames when they are
+connected to the URL. wdel ftp://host/ /usr/share/doc.tgz would delete
+ftp://host//usr/share/doc.tgz, whereas specifing /usr/share/ as basename will
+result in ftp://host/doc.tgz being deleted.
+.Sh "Connection Options"
+.IX Subsection "Connection Options"
+.IP "\fB\-\-bind\-address=\fR\fI\s-1ADDRESS\s0\fR" 4
+.IX Item "--bind-address=ADDRESS"
+When making client \s-1TCP/IP\s0 connections, \f(CW\*(C`bind()\*(C'\fR to \fI\s-1ADDRESS\s0\fR on
+the local machine.  \fI\s-1ADDRESS\s0\fR may be specified as a hostname or \s-1IP\s0
+address.  This option can be useful if your machine is bound to multiple
+IPs.
+.IP "\fB\-t\fR \fInumber\fR" 4
+.IX Item "-t number"
+.PD 0
+.IP "\fB\-\-tries=\fR\fInumber\fR" 4
+.IX Item "--tries=number"
+.PD
+Set number of retries to \fInumber\fR.  Specify -1 for infinite retrying,
+which is default, too.
+.IP "\fB\-Y\fR \fIMODE\fR" 4
+.IX Item "-Y MODE"
+.PD 0
+.IP "\fB\-\-proxy=\fR\fIMODE\fR" 4
+.IX Item "--proxy=MODE"
+.PD
+MODE can be either \fIhttp\fR for http-based proxies (such as SQUID),
+\fIsocks\fR for SOCKSv5 proxies or \fIoff\fR to disable the proxy.
+.IP "\fB\-\-proxy-user=\fR\fINAME\fR" 4
+.IX Item "--proxy-user=NAME"
+If the proxy\-server requires authentication, use \fINAME\fR as user-name.
+You need to specify \-\-proxy-pass too. These information can also be
+stored in the wputrc\-file.
+.IP "\fB\-\-proxy-pass=\fR\fIPASS\fR" 4
+.IX Item "--proxy-pass=PASS"
+Specifies the password to use for the proxy.
+.Sh "FTP Options"
+.IX Subsection "FTP Options"
+.IP "\fB\-p\fR" 4
+.IX Item "-p"
+.PD 0
+.IP "\fB\-\-port\-mode\fR" 4
+.IX Item "--port-mode"
+Per default, Wdel uses passive mode ftp, which works well for most
+configurations. If passive mode fails, Wdel automatically falls back to
+port mode.
+.PD
+If you want Wdel to start using port mode ftp, specify this flag.
+.IP "\fB\-\-force-tls\fR" 4
+.IX Item "--force-tls"
+If this flag is specified and Wdel is linked with the OpenSSL-library, the flag
+enforces the usage of TLS: If no TLS\-connection can be established the process
+will cancel and not try to go on with an unencrypted connection.
+.SH DIAGNOSTICS
+Normally, the exit status is 0 if either everything went fine or there was
+nothing to do.  If some files were skipped the exit status is set to 1. If
+some files failed to be deleted due to a remote error, exit status is 2.
+If some files failed and some others were skipped, exit status is 3. For
+general problems like failure of some system-functions the exit status is
+4.
+.SH BUGS
+.IX Header "BUGS"
+.PD
+You are welcome to send bug reports and suggestions about Wdel through the Sourceforge Bugtracking System:
+http://sourceforge.net/tracker/?group_id=141519
+.PP 0
+Please send all available information that might concern this bug (e.g.
+Operating System and what can be done to reproduce the error). Supply also
+the debug-output (but remove confidential data if any), which helps a lot
+analysing the problem. If you use a wputrc file, it might also be useful
+to provide the relevant parts of it.
+.PP 0
+If there is a crash due to a segfault or similar, try to run it in a debugger, 
+e.g. \f(CW\*(C`gdb `which wdel` core\*(C'\fR and type \f(CW\*(C`where\*(C'\fR
+to get the backtrace. It would also be great help if you could recompile wdel
+with memory-debugging support (make clean; make memdbg; [make install]) and use
+this debug-dump.
+.SH "SEE ALSO"
+.IX Header "SEE ALSO"
+Many options can be set in a wputrc file. For its documentation consult the
+sample file provided by Wput.
+.SH "AUTHOR"
+.IX Header "AUTHOR"
+Wdel is written by Hagen Fritsch <fritsch+wput-man@in.tum.de>
+and Jan Larres <jan@majutsushi.net>

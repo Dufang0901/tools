@@ -1,0 +1,143 @@
+Date:2016-09-21 11:35:21.040 <  INFO>,[Online]--################# online process id is 2797.
+Date:2016-09-21 11:35:21.144 <  INFO>,[Online]--Ol U7500:Runstat change to 0.
+Date:2016-09-21 11:35:21.144 <  INFO>,[Online]--Ol U7500:Init.
+Date:2016-09-21 11:35:22.143 <  INFO>,[Online]--OnlineProcess Loop...
+Date:2016-09-21 11:35:23.145 <  INFO>,[Online]--Ol U7500:Start.
+Date:2016-09-21 11:35:41.444 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 1.
+Date:2016-09-21 11:35:41.463 <  INFO>,[Online]--Ol U7500:Loop Sig power is -89,ber is 92, level is 2.
+Date:2016-09-21 11:35:41.486 <  INFO>,[Online]--Ol U7500:Runstat change to 1.
+Date:2016-09-21 11:35:48.501 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 11:35:48.502 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 11:36:18.486 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 11:37:52.512 <  INFO>,[Online]--Ol U7500:Pppd stat change to 4.
+Date:2016-09-21 11:37:58.540 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 11:37:58.541 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 11:38:23.276 <  INFO>,[Online]--Ol U7500:Loop Sig power is 95,ber is 255, level is 2.
+Date:2016-09-21 11:38:25.879 <  INFO>,[Online]--Ol U7500:Loop Sig power is 95,ber is 255, level is 2.
+Date:2016-09-21 11:38:25.962 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 0.
+Date:2016-09-21 11:38:29.987 <  INFO>,[Online]--Ol U7500:Pppd stat change to 0.
+Date:2016-09-21 11:40:18.031 <  INFO>,[Online]--################# online process id is 2743.
+Date:2016-09-21 11:40:18.134 <  INFO>,[Online]--Ol U7500:Runstat change to 0.
+Date:2016-09-21 11:40:18.134 <  INFO>,[Online]--Ol U7500:Init.
+Date:2016-09-21 11:40:19.135 <  INFO>,[Online]--OnlineProcess Loop...
+Date:2016-09-21 11:40:20.134 <  INFO>,[Online]--Ol U7500:Start.
+Date:2016-09-21 11:42:04.529 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 1.
+Date:2016-09-21 11:42:04.543 <  INFO>,[Online]--Ol U7500:Loop Sig power is -80,ber is 73, level is 4.
+Date:2016-09-21 11:42:04.559 <  INFO>,[Online]--Ol U7500:Runstat change to 1.
+Date:2016-09-21 11:42:11.574 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 11:42:11.575 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 11:42:50.202 <  INFO>,[Online]--Ol U7500:Loop Sig power is 87,ber is 255, level is 3.
+Date:2016-09-21 20:16:52.032 <  INFO>,[Online]--################# online process id is 2720.
+Date:2016-09-21 20:16:52.136 <  INFO>,[Online]--Ol U7500:Runstat change to 0.
+Date:2016-09-21 20:16:52.136 <  INFO>,[Online]--Ol U7500:Init.
+Date:2016-09-21 20:16:53.137 <  INFO>,[Online]--OnlineProcess Loop...
+Date:2016-09-21 20:16:54.137 <  INFO>,[Online]--Ol U7500:Start.
+Date:2016-09-21 20:19:36.022 <  INFO>,[Online]--################# online process id is 2710.
+Date:2016-09-21 20:19:36.127 <  INFO>,[Online]--Ol U7500:Runstat change to 0.
+Date:2016-09-21 20:19:36.127 <  INFO>,[Online]--Ol U7500:Init.
+Date:2016-09-21 20:19:37.128 <  INFO>,[Online]--OnlineProcess Loop...
+Date:2016-09-21 20:19:38.128 <  INFO>,[Online]--Ol U7500:Start.
+Date:2016-09-21 20:19:56.373 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 1.
+Date:2016-09-21 20:19:56.396 <  INFO>,[Online]--Ol U7500:Loop Sig power is -79,ber is 72, level is 4.
+Date:2016-09-21 20:19:56.421 <  INFO>,[Online]--Ol U7500:Runstat change to 1.
+Date:2016-09-21 20:20:03.428 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 20:20:03.428 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 20:20:06.248 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-21 20:21:57.301 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-21 20:22:48.318 <  INFO>,[Online]--Ol U7500:Loop Sig power is 97,ber is 255, level is 2.
+Date:2016-09-21 20:22:57.320 <  INFO>,[Online]--Ol U7500:Loop Sig power is 90,ber is 255, level is 3.
+Date:2016-09-21 20:23:03.320 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-21 20:24:12.349 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-21 20:24:36.357 <  INFO>,[Online]--Ol U7500:Loop Sig power is 80,ber is 255, level is 4.
+Date:2016-09-21 20:25:26.195 <  INFO>,[Online]--Ol U7500:Loop Sig power is 74,ber is 255, level is 5.
+Date:2016-09-21 20:26:17.240 <  INFO>,[Online]--Ol U7500:Loop Sig power is 92,ber is 255, level is 2.
+Date:2016-09-21 20:26:20.235 <  INFO>,[Online]--Ol U7500:Loop Sig power is 120,ber is 255, level is 1.
+Date:2016-09-21 20:26:24.221 <  INFO>,[Online]--Ol U7500:Loop Sig power is 73,ber is 255, level is 5.
+Date:2016-09-21 20:26:26.231 <  INFO>,[Online]--Ol U7500:Loop Sig power is 240,ber is 255, level is 1.
+Date:2016-09-21 20:26:27.491 <  INFO>,[Online]--Ol U7500:Loop Sig power is 73,ber is 255, level is 5.
+Date:2016-09-21 20:26:30.449 <  INFO>,[Online]--Ol U7500:Loop Sig power is 100,ber is 255, level is 1.
+Date:2016-09-21 20:26:39.248 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 20:27:29.192 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 0.
+Date:2016-09-21 20:27:33.216 <  INFO>,[Online]--Ol U7500:Pppd stat change to 0.
+Date:2016-09-21 20:28:05.272 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 1.
+Date:2016-09-21 20:28:05.283 <  INFO>,[Online]--Ol U7500:Loop Sig power is -93,ber is 99, level is 2.
+Date:2016-09-21 20:28:05.297 <  INFO>,[Online]--Ol U7500:Runstat change to 1.
+Date:2016-09-21 20:28:12.310 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 20:28:12.310 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 20:28:42.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 20:30:16.320 <  INFO>,[Online]--Ol U7500:Pppd stat change to 4.
+Date:2016-09-21 20:30:22.347 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 20:30:22.348 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 20:30:40.102 <  INFO>,[Online]--Ol U7500:Loop Sig power is 91,ber is 255, level is 2.
+Date:2016-09-21 20:30:52.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 20:31:25.109 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-21 20:31:34.362 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 20:32:06.418 <  INFO>,[Online]--Ol U7500:Loop Sig power is 88,ber is 0, level is 3.
+Date:2016-09-21 20:32:29.984 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-21 20:33:20.997 <  INFO>,[Online]--Ol U7500:Loop Sig power is 88,ber is 255, level is 3.
+Date:2016-09-21 20:33:23.995 <  INFO>,[Online]--Ol U7500:Loop Sig power is 98,ber is 255, level is 2.
+Date:2016-09-21 20:33:26.998 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-21 20:34:03.022 <  INFO>,[Online]--Ol U7500:Loop Sig power is 88,ber is 255, level is 3.
+Date:2016-09-21 20:34:27.037 <  INFO>,[Online]--Ol U7500:Loop Sig power is 81,ber is 255, level is 4.
+Date:2016-09-21 20:37:15.075 <  INFO>,[Online]--Ol U7500:Loop Sig power is 90,ber is 255, level is 3.
+Date:2016-09-21 20:37:39.080 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-21 20:42:03.207 <  INFO>,[Online]--Ol U7500:Loop Sig power is 84,ber is 255, level is 3.
+Date:2016-09-21 20:42:42.229 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-21 20:44:12.281 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-21 20:44:15.277 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-21 20:48:00.383 <  INFO>,[Online]--Ol U7500:Loop Sig power is 87,ber is 255, level is 3.
+Date:2016-09-21 20:48:03.371 <  INFO>,[Online]--Ol U7500:Loop Sig power is 93,ber is 255, level is 2.
+Date:2016-09-21 20:48:09.370 <  INFO>,[Online]--Ol U7500:Loop Sig power is 82,ber is 255, level is 4.
+Date:2016-09-21 20:50:00.399 <  INFO>,[Online]--Ol U7500:Loop Sig power is 83,ber is 255, level is 3.
+Date:2016-09-21 21:01:36.688 <  INFO>,[Online]--Ol U7500:Loop Sig power is 77,ber is 255, level is 4.
+Date:2016-09-21 21:01:57.720 <  INFO>,[Online]--Ol U7500:Loop Sig power is 84,ber is 255, level is 3.
+Date:2016-09-21 21:02:09.700 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-21 21:05:57.860 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-21 21:06:09.847 <  INFO>,[Online]--Ol U7500:Loop Sig power is 79,ber is 255, level is 4.
+Date:2016-09-21 21:07:15.891 <  INFO>,[Online]--Ol U7500:Loop Sig power is 86,ber is 255, level is 3.
+Date:2016-09-21 21:07:18.888 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.
+Date:2016-09-21 21:07:54.909 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-21 21:08:21.916 <  INFO>,[Online]--Ol U7500:Loop Sig power is 79,ber is 255, level is 4.
+Date:2016-09-21 21:09:57.967 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-21 21:10:15.962 <  INFO>,[Online]--Ol U7500:Loop Sig power is 79,ber is 255, level is 4.
+Date:2016-09-21 21:10:27.978 <  INFO>,[Online]--Ol U7500:Loop Sig power is 85,ber is 255, level is 3.
+Date:2016-09-21 21:11:12.982 <  INFO>,[Online]--Ol U7500:Loop Sig power is 75,ber is 255, level is 4.
+Date:2016-09-21 21:13:12.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 21:14:50.315 <  INFO>,[Online]--Ol U7500:Pppd stat change to 4.
+Date:2016-09-21 21:14:56.330 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 21:14:56.331 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 21:15:26.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 21:17:06.310 <  INFO>,[Online]--Ol U7500:Pppd stat change to 4.
+Date:2016-09-21 21:17:12.341 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 21:17:12.341 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 21:17:42.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 21:19:16.310 <  INFO>,[Online]--Ol U7500:Pppd stat change to 4.
+Date:2016-09-21 21:19:22.328 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 21:19:22.329 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 21:19:52.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 21:21:26.310 <  INFO>,[Online]--Ol U7500:Pppd stat change to 4.
+Date:2016-09-21 21:21:32.344 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 21:21:32.345 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 21:22:02.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 3.
+Date:2016-09-21 21:23:42.025 <  INFO>,[Online]--################# online process id is 2730.
+Date:2016-09-21 21:23:42.129 <  INFO>,[Online]--Ol U7500:Runstat change to 0.
+Date:2016-09-21 21:23:42.129 <  INFO>,[Online]--Ol U7500:Init.
+Date:2016-09-21 21:23:43.130 <  INFO>,[Online]--OnlineProcess Loop...
+Date:2016-09-21 21:23:44.130 <  INFO>,[Online]--Ol U7500:Start.
+Date:2016-09-21 21:24:01.235 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 1.
+Date:2016-09-21 21:24:01.247 <  INFO>,[Online]--Ol U7500:Loop Sig power is -82,ber is 77, level is 3.
+Date:2016-09-21 21:24:01.283 <  INFO>,[Online]--Ol U7500:Runstat change to 1.
+Date:2016-09-21 21:24:08.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 21:24:08.297 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 21:24:46.038 <  INFO>,[Online]--################# online process id is 2743.
+Date:2016-09-21 21:24:46.153 <  INFO>,[Online]--Ol U7500:Runstat change to 0.
+Date:2016-09-21 21:24:46.153 <  INFO>,[Online]--Ol U7500:Init.
+Date:2016-09-21 21:24:47.153 <  INFO>,[Online]--OnlineProcess Loop...
+Date:2016-09-21 21:24:48.153 <  INFO>,[Online]--Ol U7500:Start.
+Date:2016-09-21 21:25:07.264 <  INFO>,[Online]--Ol U7500:Ope reg stat change to 1.
+Date:2016-09-21 21:25:07.288 <  INFO>,[Online]--Ol U7500:Loop Sig power is -82,ber is 77, level is 3.
+Date:2016-09-21 21:25:07.321 <  INFO>,[Online]--Ol U7500:Runstat change to 1.
+Date:2016-09-21 21:25:14.334 <  INFO>,[Online]--Ol U7500:Pppd stat change to 2.
+Date:2016-09-21 21:25:14.335 <  INFO>,[Online]--Ol U7500:Pppd stat change to 1.
+Date:2016-09-21 21:31:41.282 <  INFO>,[Online]--Ol U7500:Loop Sig power is 84,ber is 255, level is 3.
+Date:2016-09-21 21:31:53.256 <  INFO>,[Online]--Ol U7500:Loop Sig power is 78,ber is 255, level is 4.

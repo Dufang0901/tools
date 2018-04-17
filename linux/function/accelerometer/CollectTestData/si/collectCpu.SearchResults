@@ -1,0 +1,8 @@
+---- psPhAcce Matches (7 in 1 files) ----
+PeripheralsAcce.c (e:\project\git\linux\app\linux-obu-common\collecttestdata\main\src):    S_PhAcce        *psPhAcce;
+PeripheralsAcce.c (e:\project\git\linux\app\linux-obu-common\collecttestdata\main\src):    psPhAcce = &psPhProcessRes->sPhAcce;
+PeripheralsAcce.c (e:\project\git\linux\app\linux-obu-common\collecttestdata\main\src):    psPhAcce->okFlag = 1;
+PeripheralsAcce.c (e:\project\git\linux\app\linux-obu-common\collecttestdata\main\src):                psPhAcce->updateFlag = 1;
+PeripheralsAcce.c (e:\project\git\linux\app\linux-obu-common\collecttestdata\main\src):                    psPhAcce->acceX[i] = acceXBuf[i];
+PeripheralsAcce.c (e:\project\git\linux\app\linux-obu-common\collecttestdata\main\src):                    psPhAcce->acceY[i] = acceYBuf[i];
+PeripheralsAcce.c (e:\project\git\linux\app\linux-obu-common\collecttestdata\main\src):                    psPhAcce->acceZ[i] = acceZBuf[i];

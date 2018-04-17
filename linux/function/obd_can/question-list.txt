@@ -1,0 +1,14 @@
+调试can接口时遇到的问题：
+1、编译了canread.c 和canwrite.c来运行，发现都出错，canread中的read函数返回network is down，检查发现，原因是can1接口没有运行起来。
+	直接用“ifconfig can1 up”命令返回：can1 ifconfig: SIOCSIFFLAGS: Invalid argument，需要先用命令：“ip link set can1 type can bitrate 125000 triple-sampling on”
+	设置波特率为125000byte/s，再用 ifconfig can1 up来启动can1，命令如下：
+	ip link set can1 type can bitrate 250000 triple-sampling on
+	ifconfig can1 up
+	ip link set can0 down
+	ip -details link show can0
+	
+2、 使用canconfig来配置can口：
+	canconfig can0 bitrate 250000
+	canconfig can0 restart-ms 100
+	canconfig can0 start
+	candump can0   监听can0,显示接收到的数据

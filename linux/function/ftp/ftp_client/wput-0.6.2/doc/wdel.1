@@ -1,0 +1,47 @@
+.TH "wdel" "1" "0.6.2" "Hagen Fritsch, Jan Larres" "Internet Applications - FTP"
+.SH "NAME"
+wdel \- A wget\-like program for deleting files on ftp servers
+.SH "SYNOPSIS"
+wdel [\fIoption\fR]... [\fI\s-1URL\s0\fR [\fI\s-1file\s0\fR]...]...
+.SH "DESCRIPTION"
+Wdel is a free utility that is able to delete files on an ftp server.
+.PP
+Wdel is non\-interactive and background-capable. It can delete files or whole
+directories and is meant to be a robust client even for unstable connections
+and will therefore retry to delete a file, if the connection broke.
+.PP
+Wdel supports connections through proxies, allowing you to use it in an
+environment that can access the internet only via a proxy or to provide
+anonymity by hiding your ip\-address to the server.
+For SOCKSv5\-proxies Wdel supports also listening mode, allowing you to use
+port-mode ftp through a proxy (useful if the remote ftp is behind a firewall
+or a gateway).
+.SH "URL\-Input\-Handling"
+URLs are recognized by the ftp://\-prefix.
+.PP
+Wdel first reads the URLs from the command line, and associates every file
+with the last URL until a new URL is found (note that this is different
+from wput). Then, it reads the \-\-input\-file (if any) and parses the URLs
+in the same way.  So you can specify e.g. one URL and read all filenames
+from a file.
+.PP
+If there are no explicit filenames given for a singe URL, then the last
+part of the URL is taken to be the file/directory to be deleted. If there
+are filenames, then the last part of the URL is considered to be the
+directory where these files reside in. Slashes at the end of the URL or the
+filename (in case it is a directory to be deleted) are ignored.
+.SH "OPTIONS"
+There are no special options introduced by Wdel. All of Wput’s options may
+be supplied, although some will not be of any effect because they do not apply
+for the process of deleting files. Please see wput(1) for a description of
+the options.
+.SH "SEE ALSO"
+.IX Header "SEE ALSO"
+Many options can be set in a wputrc file. For its documentation consult the
+sample file provided by Wput.
+.PP
+wput(1) describes all setable options. Not all apply for wdel too though.
+.SH "AUTHOR"
+.IX Header "AUTHOR"
+Wdel is written by Hagen Fritsch <fritsch+wdel-man@in.tum.de>
+and Jan Larres <jan@majutsushi.net>

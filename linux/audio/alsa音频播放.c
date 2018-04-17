@@ -1,0 +1,129 @@
+1. 参数与基本概念
+	ALSA PCM设备有两组参数：
+	硬件参数
+		包含音频格式，采样频率，通道数，环形缓冲区大小等
+	软件参数
+		包含软件（驱动）相关的参数，如自动开始，自动停止，中断（块数据确认）等
+	当硬件参数设置好后，软件参数可以在任何时候被修改
+	样本长度sample：记录音频数据的基本单位，常见的有8位和16位
+	通道数channel：1为单声道，2为立体声
+	帧frame：帧记录了一个声音单元，为样本长度和通道数的乘积
+	采样率rate：每秒钟采样次数，即每秒钟有多少帧
+	周期period：音频设备一次处理所需要的桢数，对于音频设备的数据访问以及音频数据的存储，都是以此为单位。
+	缓冲区：缓冲区是环缓冲区，大小必须大于一个周期的帧数，一般为一个周期帧数的两倍（单位是帧），
+
+2. set_hw_params:
+	snd_pcm_hw_params_any(handle, params);
+	snd_pcm_hw_params_set_rate_resample(handle, params, resample);
+	snd_pcm_hw_params_set_access(handle, params, access);
+	snd_pcm_hw_params_set_format(handle, params, format);
+	snd_pcm_hw_params_set_channels(handle, params, channels);
+	snd_pcm_hw_params_set_rate_near(handle, params, &rrate, 0);
+	snd_pcm_hw_params_set_buffer_time_near(handle, params, &buffer_time, &dir);
+	snd_pcm_hw_params_get_buffer_size(params, &size);
+	snd_pcm_hw_params_set_period_time_near(handle, params, &period_time, &dir);
+	snd_pcm_hw_params_get_period_size(params, &size, &dir);
+	snd_pcm_hw_params(handle, params);
+
+3. 关于PCM硬件参数设置：
+	1)snd_pcm_open 打开默认的PCM 设备并设置访问模式为PLAYBACK。这个函数返回一个句柄，
+	这个句柄保存在第一个函数参数中。该句柄会在随后的函数中用到。像其它函数一样，这个
+	函数返回一个整数。
+
+		int snd_pcm_open(snd_pcm_t **pcmp, const char *name, snd_pcm_stream_t stream, int mode)
+
+	如果返回值小于0,则代码函数调用出错。如果出错，我们用snd_errstr打开错误信息并退出。
+
+		fprintf(stderr,"unable to open pcm device: %s\n",snd_strerror(rc)); // int rc ;
+
+	2)为了设置音频流的硬件参数，我们需要分配一个类型为snd_pcm_hw_param的变量。分配用
+	到函数宏 snd_pcm_hw_params_alloca。
+
+		snd_pcm_hw_params_alloca(&params); //snd_pcm_uframes_t frames;
+
+	3)下一步，我们使用函数snd_pcm_hw_params_any来初始化这个变量，传递先前打开的 PCM流句柄。
+
+		snd_pcm_hw_params_any(handle, params);
+
+	4)接下来，我们调用API来设置我们所需的硬件参数。这些函数需要三个参数：PCM流句柄，参数类型，
+	参数值。我们设置流为交错模式，16位的样本大小，2 个信道，44100bps的采样率。对于采样率而言，
+	声音硬件并不一定就精确地支持我们所定的采样率，但是我们可以使用函数 
+
+		snd_pcm_hw_params_set_rate_near
+
+	来设置最接近我们指定的采样率的采样率。其实只有当我们调用函数 snd_pcm_hw_params后，硬件参数才会起作用。
+
+	5)程序的剩余部分获得并打印一些PCM流参数，包括周期和缓冲区大小。结果可能会因为声音硬件的不同而不同。
+	运行该程序后，做实验，改动一些代码。把设备名字改成hw：0,0,然后看结果是否会有变化。设置不同的硬件参数然后观察结果的变化。
+
+4.关于PCM到ADPCM的编码与解码
+1)IMA-ADPCM 是Intel公司首先开发的是一种主要针对16bit采样波形数据的有损压缩算法, 压缩比为 4:1.它与通常的DVI-ADPCM是同一算法。
+2)压缩成ADPCM后，按照block来存储。对于单声道，一般 1 block=512 byte,对于多声道，一般1 block=1024 byte.
+  block一般由block header和data两部分组成。单声道下block header定义如下：
+	typedef struct 
+	{
+		short sample0;	//block中第一个采样值(未压缩)
+		BYTE index;		//上一个block的最后一个index，第一个block的index=0；
+		BYTE reserved;	//尚未使用
+	};
+
+5.与周期大小和缓冲区大小设置相关的接口
+int 	snd_pcm_hw_params_set_period_time_near (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, unsigned int *val, int *dir)
+ 	Restrict a configuration space to have period time nearest to a target. 
+
+int 	snd_pcm_hw_params_set_period_size (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, snd_pcm_uframes_t val, int dir)
+ 	Restrict a configuration space to contain only one period size. 
+
+int 	snd_pcm_hw_params_set_period_size_near (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, snd_pcm_uframes_t *val, int *dir)
+ 	Restrict a configuration space to have period size nearest to a target. 
+
+int 	snd_pcm_hw_params_get_periods (const snd_pcm_hw_params_t *params, unsigned int *val, int *dir)
+ 	Extract periods from a configuration space. 
+
+int 	snd_pcm_hw_params_set_periods (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, unsigned int val, int dir)
+ 	Restrict a configuration space to contain only one periods count. 
+
+int 	snd_pcm_hw_params_set_periods_near (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, unsigned int *val, int *dir)
+ 	Restrict a configuration space to have periods count nearest to a target. 
+
+
+
+int 	snd_pcm_hw_params_get_buffer_time (const snd_pcm_hw_params_t *params, unsigned int *val, int *dir)
+ 	Extract buffer time from a configuration space. 
+
+int 	snd_pcm_hw_params_set_buffer_time (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, unsigned int val, int dir)
+ 	Restrict a configuration space to contain only one buffer time. 
+
+int 	snd_pcm_hw_params_set_buffer_time_near (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, unsigned int *val, int *dir)
+ 	Restrict a configuration space to have buffer time nearest to a target. 
+
+int 	snd_pcm_hw_params_get_buffer_size (const snd_pcm_hw_params_t *params, snd_pcm_uframes_t *val)
+ 	Extract buffer size from a configuration space. 
+
+int 	snd_pcm_hw_params_set_buffer_size (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, snd_pcm_uframes_t val)
+ 	Restrict a configuration space to contain only one buffer size. 
+
+int 	snd_pcm_hw_params_set_buffer_size_near (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, snd_pcm_uframes_t *val)
+ 	Restrict a configuration space to have buffer size nearest to a target. 
+
+
+6.问题与解决
+1) 在从语音文件中读取数据并写入PCM设备时，读取数据的帧数和写入数据的帧数一定要相等，否则声音很不清楚
+2) 使用函数
+	int snd_pcm_hw_params_set_period_size_near (snd_pcm_t *pcm, snd_pcm_hw_params_t *params, snd_pcm_uframes_t *val, int *dir)
+	来设置一个周期包含的帧数时，设置后，val的值会被改变为设置后一个周期包含的实际的帧数，而这个帧数很可能不是
+	我们设置时给val赋的那个值
+
+7.相关链接
+	1) 官方关于period 和buffer的解释
+	http://www.alsa-project.org/main/index.php/FramesPeriods
+	2) PCM文件头的定义和音频格式类型定义
+	http://www.icculus.org/SDL_sound/downloads/external_documentation/wavecomp.htm
+
+
+
+
+
+
+
+
